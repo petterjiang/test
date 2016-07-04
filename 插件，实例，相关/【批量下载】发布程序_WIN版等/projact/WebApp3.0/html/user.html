@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>用户信息</title>
+    <link type="text/css" href="../css/common/public.css" rel="stylesheet" />
+    <link type="text/css" href="../css/common/style.css" rel="stylesheet" />
+    <link type="text/css" href="../css/user/user.css" rel="stylesheet" />
+    <script type="text/javascript" src="../js/common/jquery-1.8.2.min.js"></script>
+    <script>
+     document.write("<s"+"cript type='text/javascript' src='../js/common/conf.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/main.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/jquery.md5.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/daohang.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/url.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/area.js?"+Math.random()+"'></scr"+"ipt>")
+     
+     document.write("<s"+"cript type='text/javascript' src='../js/common/jquery.form.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/user/user.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/SetHook.js?"+Math.random()+"'></scr"+"ipt>")
+    </script>
+</head>
+<body id="uidemo">
+    <!-- 导航 -->
+    <div class="nav_top">
+        <div class="top_width">
+            <h1>
+                福控科技</h1>
+            <ul>
+                <li><a href="web_one.html">系统设备</a> </li>
+                <li><a href="InstallDevice_new.html">设备安装</a> </li>
+                <!-- <li>
+          <a href="shipin.html">视频监控</a>
+        </li> -->
+                <li><a class="nav_on" href="user.html">用户信息</a> </li>
+                <li><a href="room.html">机房信息</a> </li>
+                <li><a href="pue.html">PUE</a> </li>
+                <li><a href="power.html">能耗</a> </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 头部信息 -->
+    <div class="top_msg">
+        <div class="top_con">
+            <div class="alert_msg">
+                实时告警信息： <a href='alert.html'>0</a>
+            </div>
+            <ul class="InfoTab">
+                <li><a class="on_show" href="javascript:void(0)">用户信息</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="user_bos">
+        <div class="conbox">
+            <h2>
+                用户信息</h2>
+            <div class="user_competence">
+                <div class="user_now table_style" style="padding-bottom: 40px;">
+                    <table width="95%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <th height="26">
+                                用户名
+                            </th>
+                            <th>
+                                身份
+                            </th>
+                            <th>
+                                创建时间
+                            </th>
+                            <th>
+                                操作
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <a class="add_u_b" href="javascript:void(0)">增加用户</a>
+        </div>
+        <!--用户增加浮层-->
+        <div class="add_form conbox" style="display: none;">
+            <h2>
+                增加用户</h2>
+            <div class="add_table">
+                <table width="50%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="30%" height="35" align="right" valign="middle">
+                            姓名：
+                        </td>
+                        <td width="70%">
+                            <input id="uesr_name" value="" type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="35" align="right" valign="middle">
+                            权限：
+                        </td>
+                        <td>
+                            <div class="quanxian sele">
+                                <p>
+                                    权限选择</p>
+                                <ul class="use_type">
+                                </ul>
+                            </div>
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="35" align="right" valign="middle">
+                            密码：
+                        </td>
+                        <td>
+                            <input id="user_password" value="" type="password" />
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="35" align="right" valign="middle">
+                            确认密码：
+                        </td>
+                        <td>
+                            <input id="user_password1" value="" type="password" />
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="send_form">
+                <a class="send_messg" href="javascript:void(0)">提交</a> <a class="no_send" href="javascript:void(0)">
+                    取消</a>
+            </div>
+        </div>
+    </div>
+    <div class="ChgPasswd" style="display:none;">
+        <div class="PasswdHead">
+            <h2>
+                修改密码</h2>
+        </div>
+        <div class="ChgCont">
+            <table>
+                <tr style="display:none;"  >
+                    <td  >
+                        <p>
+                            旧密码</p>
+                    </td>
+                    <td>
+                        <input type="password" id="OldPasswd"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            新密码</p>
+                    </td>
+                    <td>
+                        <input type="password" id="NewPasswd"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            确认新密码</p>
+                    </td>
+                    <td>
+                        <input type="password" id="RePasswd"/>
+                    </td>
+                </tr>
+            </table>
+            <div class="Button">
+                <div class="Submit">
+                    <span>提交</span>
+                </div>
+                <div class="Close">
+                    <span>取消</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

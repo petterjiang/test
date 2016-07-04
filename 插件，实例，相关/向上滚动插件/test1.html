@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>多行滚动jQuery循环新闻列表代码</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/main_in.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+<script type="text/javascript">
+//滚动插件
+(function($){
+$.fn.extend({
+    Scroll:function(opt,callback){
+        //参数初始化
+        if(!opt) var opt={};
+        var _this=this.eq(0).find("ul:first");
+        var lineH=_this.find("li:first").height(), //获取行高
+            line=opt.line?parseInt(opt.line,10):parseInt(this.height()/lineH,10), //每次滚动的行数，默认为一屏，即父容器高度
+            speed=opt.speed?parseInt(opt.speed,10):500, //卷动速度，数值越大，速度越慢（毫秒）
+            timer=opt.timer?parseInt(opt.timer,10):3000; //滚动的时间间隔（毫秒）
+        if(line==0) line=1;
+        var upHeight=0-line*lineH;
+        //滚动函数
+        scrollUp=function(){
+            _this.animate({
+                marginTop:upHeight  
+            },speed,function(){
+                for(i=1;i<=line;i++){
+                        _this.find("li:first").appendTo(_this);
+                }
+                _this.css({marginTop:0});
+            });
+        }
+        //鼠标事件绑定
+        _this.hover(function(){
+                clearInterval(timerID);
+            },function(){
+                timerID=setInterval("scrollUp()",timer);
+            }).mouseout();
+        }        
+    })
+})(jQuery);
+
+$(document).ready(function(){
+    // $("#scrollDiv").Scroll({line:4,speed:300,timer:2000});
+    $(".scroll").Scroll({line:5,speed:500,timer:3000});
+});
+
+</script>
+</head>
+
+<body>
+
+<div class="index_main_cz">
+    <div class="cz_box">
+        <h3>操盘达人</h3>
+        <div class="cz_con">
+            <ul>
+                <li class="cz_one"><span class="cz_last1">用户</span> <span class="cz_last2">操盘总额</span> <span class="cz_last2">投入资金</span>
+                    <span class="cz_last4">杠杆（倍数）</span> <span class="cz_last2">配资期限</span>
+                    <span class="cz_last3">累计盈利 </span> <span class="cz_last3">收益率</span>
+                </li>
+            </ul>
+            <div class="scroll"  id="marquees" style="height:230px; overflow:hidden;">
+                <ul>
+                    <li class="cz_one1">
+                        <span class="cz_last1">135****482</span>
+                        <span class="cz_last2">120万元</span>
+                        <span class="cz_last2">40万元</span>
+                        <span class="cz_last4">3倍</span>
+                        <span class="cz_last2">6个月</span>
+                        <span class="cz_last3">58.39万元</span>
+                        <span class="cz_last3">145.98%</span>
+                    </li>
+                    <li class="cz_one2">
+                        <span class="cz_last1">135****261</span>
+                        <span class="cz_last2">120万元</span>
+                        <span class="cz_last2">60万元</span>
+                        <span class="cz_last4">2倍</span>
+                        <span class="cz_last2">4个月</span>
+                        <span class="cz_last3">57.39万元</span>
+                        <span class="cz_last3">95.66%</span>
+                    </li>
+                    <li class="cz_one3">
+                        <span class="cz_last1">136****721</span>
+                        <span class="cz_last2">240万元</span>
+                        <span class="cz_last2">60万元</span>
+                        <span class="cz_last4">4倍</span>
+                        <span class="cz_last2">6个月</span>
+                        <span class="cz_last3">38.47万元</span>
+                        <span class="cz_last3">64.13%</span>
+                    </li>
+                    <li class="cz_one4">
+                        <span class="cz_last1">133****882</span>
+                        <span class="cz_last2">180万元</span>
+                        <span class="cz_last2">60万元</span>
+                        <span class="cz_last4">3倍</span>
+                        <span class="cz_last2">3个月</span>
+                        <span class="cz_last3">33.09万元</span>
+                        <span class="cz_last3">55.16%</span>
+                    </li>
+                    <li class="cz_one5">
+                        <span class="cz_last1">136****725</span>
+                        <span class="cz_last2">60万元</span>
+                        <span class="cz_last2">15万元</span>
+                        <span class="cz_last4">4倍</span>
+                        <span class="cz_last2">5个月</span>
+                        <span class="cz_last3">19.68万元</span>
+                        <span class="cz_last3">131.23%</span>
+                    </li>
+                    <li class="cz_one6">
+                        <span class="cz_last1">138****451</span>
+                        <span class="cz_last2">45万元</span>
+                        <span class="cz_last2">15万元</span>
+                        <span class="cz_last4">3倍</span>
+                        <span class="cz_last2">10天</span>
+                        <span class="cz_last3">12.1万元</span>
+                        <span class="cz_last3">80.81%</span>
+                    </li>
+                    <li class="cz_one7">
+                        <span class="cz_last1">189****023</span>
+                        <span class="cz_last2">30万元</span>
+                        <span class="cz_last2">10万元</span>
+                        <span class="cz_last4">3倍</span>
+                        <span class="cz_last2">2个月</span>
+                        <span class="cz_last3">9.21万元</span>
+                        <span class="cz_last3">92.1%</span>
+                    </li>
+                    <li class="cz_one8">
+                        <span class="cz_last1">138****105</span>
+                        <span class="cz_last2">20万元</span>
+                        <span class="cz_last2">5万元</span>
+                        <span class="cz_last4">4倍</span>
+                        <span class="cz_last2">3个月</span>
+                        <span class="cz_last3">7.29万元</span>
+                        <span class="cz_last3">145.8%</span>
+                    </li>
+                    <li class="cz_one9">
+                        <span class="cz_last1">138****105</span>
+                        <span class="cz_last2">15万元</span>
+                        <span class="cz_last2">5万元</span>
+                        <span class="cz_last4">3倍</span>
+                        <span class="cz_last2">2个月</span>
+                        <span class="cz_last3">6.29万元</span>
+                        <span class="cz_last3">125.8%</span>
+                    </li>
+                    <li class="cz_one10">
+                        <span class="cz_last1">182****885</span>
+                        <span class="cz_last2">20万元</span>
+                        <span class="cz_last2">5万元</span>
+                        <span class="cz_last4">4倍</span>
+                        <span class="cz_last2">15天</span>
+                        <span class="cz_last3">4.38万元</span>
+                        <span class="cz_last3">87.6%</span>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

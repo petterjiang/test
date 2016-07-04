@@ -1,0 +1,67 @@
+.alert_box{ width: 998px; border: 1px solid #000; margin: 0 auto; padding-bottom: 30px;}
+.congt_list {margin: 30px 30px 0 30px;
+padding-bottom: 12px;
+border: 2px solid #3da5ee;
+border-radius: 10px;
+background: url(../../images/pub/title_top.jpg) repeat-x left top #333;
+color: #fff;}
+#time1, #time2 { width: 115px; background: #333; color: #fff; border: 1px solid #000; height: 23px; line-height: 23px;}
+
+.congt_list h2 { height: 26px; line-height: 26px; padding-left: 2em; color: #fff; font-weight: bold;}
+table{
+width:100%;
+margin:0px auto;
+font:Georgia 11px;
+font-size:12px;
+color:#fff;
+
+}
+table td{
+
+height:22px;
+}
+caption{text-align:center;font-size:12px;font-weight:bold;margin:0 auto;}
+tr.t1 td {background-color:#fff;}/* 交替行第一行的背景色 */
+tr.t2 td {background-color:#eee;}/* 交替行第二行的背景色 */
+tr.t3 td {background-color:#ccc;}/* 鼠标经过时的背景色 */
+th,tfoot tr td{font-weight:bold;text-align:center;background:#c5c5c5;}
+th{line-height:30px;height:30px;}
+tfoot tr td{background:#fff;line-height:26px;height:26px;}
+thead{border:1px solid #999;}
+thead tr td{text-align:center;}
+#page{text-align:center;float:right;}
+#page a,#page a:visited{width:60px;height:22px;line-height:22px;border:1px black solid;display:block;float:left;margin:0 3px;background:#c9c9c9;
+text-decoration:none;}
+#page a:hover{background:#c1c1c1;text-decoration:none;}
+.grayr {padding:2px;font-size:11px;background:#fff;float:right;}
+.grayr a {padding:2px 5px;margin:2px;color:#000;text-decoration:none;;border:1px #c0c0c0 solid;}
+.grayr a:hover {color:#000;border:1px orange solid;}
+.grayr a:active {color:#000;background: #99ffff}
+.grayr span.current {padding:2px 5px;font-weight:bold; margin:2px; color: #303030;background:#fff;border:1px orange solid;}
+.grayr span.disabled {padding:2px 5px;margin:2px;color:#797979;background: #c1c1c1;border:1px #c1c1c1 solid;}
+
+.sele {
+	position: relative;
+border: 1px solid #000;
+color: #fff;
+background: #333;
+height: 18px;
+line-height: 18px;
+margin: 4px 0;
+padding: 2px 5px;
+width: 86px;
+cursor: pointer;}
+.tiaojian_list{position: absolute;
+top: 22px;
+left: -1px;
+z-index: 999;
+border: 1px solid #000;
+background: #333;
+width: 96px;}
+
+.tiaojian_list li { padding: 0 3px;
+color: #fff;
+line-height: 26px;
+height: 26px; }
+.tiaojian_list li:hover { background: #09f;}
+.cx { color: #fff;}

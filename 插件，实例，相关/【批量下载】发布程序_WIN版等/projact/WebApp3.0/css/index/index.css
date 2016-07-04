@@ -1,0 +1,120 @@
+
+        html{
+            height: 100%;
+        }
+        body
+        {
+            background: url(../../images/pub/beijing1.jpg) no-repeat;
+            height: 100%;
+        }
+        .login
+        {
+            left: 50%;
+            top: 48%;
+            position: absolute;
+            display: block;
+            background: url(../../images/pub/login.png) no-repeat left bottom;
+            width: 450px;
+            height: 300px;
+            margin: -150px 0 0 -225px;
+        }
+        .login h1
+        {
+           text-align: center;
+            width: 100%;
+            position: absolute;
+            font: 18px/50px microsoft yahei;
+            color: #fff;
+            top: 40px;
+        }
+        .login h1 span {
+            display: block;
+        }
+        .name_qiye {
+            color: #333;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .name_xitong {
+            font-size: 18px;
+        }
+        .input_table
+        {
+            margin: 108px 0 0 102px;
+            color: #fff;
+            font-size: 12px;
+        }
+        .input_table input
+        {
+            padding: 2px 5px;
+            width: 95px;
+            line-height: 16px;
+            height: 16px;
+        }
+        .subit_box
+        {
+            position: absolute;
+            left: 302px;
+            top: 113px;
+        }
+        .subit_box span
+        {
+            cursor: pointer;
+            display: block;
+            height: 25px;
+            width: 59px;
+            margin-bottom: 7px;
+            text-align: center;
+            line-height: 25px;
+            color: #fff;
+        }
+        .subit_box a:hover
+        {
+            background-position: 0 -25px;
+        }
+        .login_go
+        {
+            position: absolute;
+            width: 100%;
+            top: 52px;
+        }
+        #ie6-warning
+        {
+            height: 290px;
+            padding:20px;
+            width: 460px;
+            line-height: 30px;
+            margin-left: -250px;
+            margin-top: -165px;
+            text-align: center;
+            left: 50%;
+            top: 50%;
+            background: #fff;
+            color: #000;
+            border: 1px solid #ccc;
+            z-index: 9999;
+        }
+         #ie6-warning strong {
+            font-size: 16px; font-weight: bold; color: red; padding-top: 50px; display: block;
+         }
+         .text_ts {
+            color: red; font-size: 14px; 
+         }
+        .bg_fiexd {
+            height: 100%;
+            width: 100%;
+            background: #000;
+            z-index: 9998;
+            position: absolute;
+            opacity: 0.6;
+            filter:Alpha(opacity=60);
+            top: 0
+            left:0;
+        }
+        .banben
+        {
+            position: absolute;
+            color: #eee;
+            top: 213px;
+            right: 77px;
+        }

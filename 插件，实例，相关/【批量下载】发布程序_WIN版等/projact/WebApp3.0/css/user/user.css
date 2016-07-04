@@ -1,0 +1,124 @@
+.user_bos { width: 998px; border: 1px solid #000; margin: 0 auto; padding-bottom: 30px; }
+.conbox h2 { height: 26px; line-height: 26px; padding-left: 2em; font-weight: bold; margin-bottom: 10px;}
+.conbox {margin: 30px 30px 0 30px; position: relative;
+padding-bottom: 12px;
+border: 2px solid #3da5ee;
+border-radius: 10px;
+background: url(../../images/pub/title_top.jpg) repeat-x left top #333;
+color: #fff;}
+.user_now th { background: #7cb6eb;border-bottom: 1px solid #fff;}
+.user_now table { border: none; margin: 0 auto;border-left: 1px solid #fff; }
+.user_now td {
+border-bottom: 1px solid #fff;
+border-right: 1px solid #fff;}
+.add_form h2 { height: 26px; line-height: 26px; color: #fff; padding-left: 2em; font-weight: bold; margin-bottom: 10px;}
+.add_form table { margin: 0 auto }
+.quanxian .use_type { position: absolute; top: 22px; left: -1px;}
+.use_type li a { text-decoration: none;}
+.add_form input { color: #fff;}
+.mssage_room { width: 95%; margin: 0 auto;}
+.name_room { margin-bottom: 10px;}
+#flUpload { border: 1px solid #000;}
+#btnUpload { background: none;background: url(../../images/pub/title_top.jpg) repeat-x;
+height: 24px;
+color: #fff;
+font-weight: bold;
+text-decoration: none;
+text-align: center;
+line-height: 24px;
+border-radius: 5px;
+padding: 0; width: 50px; border: 0;}
+.add_u_b {font-size: 14px;
+font-weight: bold;
+color: #333;
+background: #999;
+display: block;
+width: 80px;
+text-align: center;
+border-radius: 8px 8px 0 0;
+position: absolute;
+bottom: 0px;
+height: 26px;
+line-height: 26px;
+left: 50%;
+margin-left: -40px;
+cursor: pointer;
+padding: 0;
+text-decoration: none;
+font-size: 12px;
+}
+.add_form .send_form a { background:url(../../images/pub/title_top.jpg) repeat-x;height: 26px;
+color: #fff;
+font-weight: bold;
+text-decoration: none;
+text-align: center;
+line-height: 26px;border-radius:5px; padding: 0; }
+
+.user_now a {
+	text-decoration:none;
+}
+.user_now a:hover {
+	text-decoration: underline;
+}
+.ChgPasswd {
+	border:2px solid #3da5ee;
+    border-radius:7px;
+    
+	position: fixed;
+	
+	margin-top: -12%;
+	margin-left: 29%;
+	width: 650px;
+	height: 337px;
+	background: #333;
+}
+.ChgPasswd .PasswdHead {
+    background:url(../../images/pub/title_top.jpg);
+    color:#fff;
+    height:26px;
+}
+.PasswdHead h2 {
+	line-height:26px;
+    padding-left:2em;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+.ChgPasswd span,p{
+	color:#fff;
+    font-size:13px;
+}
+.ChgCont {
+	margin-top:51px;
+}
+.ChgCont table {
+	margin-left:auto;
+    margin-right:auto;
+}
+.Button{
+margin-top: 147px;
+height: 37px;
+width: 100%;
+}
+.Submit {
+border: 1px solid #fff;
+border-radius: 4px;
+background: url("../../images/pub/title_top.jpg");
+width: 65px;
+height: 26px;
+cursor: pointer;
+text-align: center;
+margin-left:220px;
+position:absolute;
+	
+}
+.Close {
+	border: 1px solid #fff;
+border-radius: 4px;
+background: url("../../images/pub/title_top.jpg");
+width: 65px;
+height: 26px;
+cursor: pointer;
+text-align: center;
+margin-left:auto;
+margin-right:auto;
+}

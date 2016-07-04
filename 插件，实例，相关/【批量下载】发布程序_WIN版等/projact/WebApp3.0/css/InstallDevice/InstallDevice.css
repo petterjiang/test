@@ -1,0 +1,60 @@
+.di_set_box {left: 25%;
+                top: 30%;
+                border: 3px solid #ccc;
+                height: 62%;
+                width: 50%;
+                background: #fff;
+                position: fixed;
+                z-index: 1025; }
+  .close_list_yy {
+                display: block;
+                width: 19px;
+                height: 19px;
+                cursor: pointer;
+                background: url(../../images/pub/portal_all_gif.gif) no-repeat left -460px;
+                position: absolute;
+                top: -8px;
+                right: -8px;
+                }
+  .close_di {display: block;
+              width: 19px;
+              height: 19px;
+              cursor: pointer;
+              background: url(.../../images/pub/portal_all_gif.gif) no-repeat left -460px;
+              position: absolute;
+              top: -8px;
+              right: -8px;}
+  .box_in_style { width: 90%;
+              margin: 20px auto;
+  }
+  .box_in_style strong { display: inline-block; width: 120px; padding-right: 10px; text-align: right;}
+  .box_in_style input { width: 50px;}
+  .box_in_style div { padding: 4px 0 ;}
+  .conrol { text-align: center;}
+  .conrol a {
+              display: inline-block;
+              cursor: pointer;
+              height: 22px;
+              line-height: 22px;
+              background: #09f;
+              color: #fff;
+              text-decoration: noe;
+              padding: 2px 8px;
+              text-decoration: none;
+              }
+  .cdma{ 
+              position: absolute;
+              height: 50px;
+              width: 58px;
+              left: 38px;
+              top: 23px;}
+  .cdma .ps{
+              text-align: center;
+              display: block;
+              background: #333;
+              height: 22PX;
+              line-height: 20PX;
+              color: #FFF;
+    }
+  .cdma_zx{ color: #fff;}
+  

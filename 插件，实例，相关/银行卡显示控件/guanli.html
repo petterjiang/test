@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0044)http://www.dianjinhe.com/withDrawBindBank.do -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link type="text/css" rel="stylesheet" href="styles/myspace-20140801.css">
+  <link type="text/css" rel="stylesheet" href="styles/add_style.css">
+  <link type="text/css" rel="stylesheet" href="styles/template.css">
+  <link type="text/css" rel="stylesheet" href="styles/newBank.css">
+  <link type="text/css" rel="stylesheet" href="styles/popup.css">
+  <script type="text/javascript" src="script/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" src="script/popUp.js"></script>
+  <script type="text/javascript" src="script/bankShow.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      //设为默认卡的显示规则
+      $(".uc-mybank").hover(function() {
+        if ($(this).hasClass('curr')) {
+          $(this).find('.setCard').hide();
+        }else{
+          $(this).find('.setCard').show();
+        }
+      }, function() {
+        $(this).find('.setCard').hide();
+      });
+
+      //点解设为默认
+      $(".setCard").click(function(e) {
+        $(this).parents(".uc-mybank").addClass('curr').siblings().removeClass('curr')
+      });
+
+      var delTemp;
+
+      $(".delCard").click(function(e) {
+        delTemp = $(this).parents(".uc-mybank");
+        PubJs.open({areawidth: 410,          //默认410，弹出层宽度
+            title: '温馨提示',      //头部title信息
+            shade: 0.5,              //遮罩透明度
+            bgway: 2 ,               //1:默认没有背景， 2：感叹， 3:正确背景 4:其他
+            content: '<div style="text-align:center;">是否确认删除银行卡</div>',//中间HTML内容
+            button:['确定','取消']   //按钮名字，最多两个，默认两个。)
+            });
+      });
+      //确定按钮
+      $("#popbotton1").live('click',function(e) {
+        //do something
+        delTemp.remove();
+        PubJs.closePop();
+      });
+      //取消按钮
+      $("#popbotton2").live('click',function(e) {
+        PubJs.closePop();
+      });
+
+    
+      
+    })
+  </script>
+<head></head>
+<body>
+  <div class="space-right">
+    <h2> <strong>银行卡管理</strong>
+    </h2>
+    <div class="bankList">
+      <div class="uc-mybank curr" onmouseover="$(this).find('div.opbank').show();" onmouseout="$(this).find('div.opbank').hide();">
+        <div class="bank">
+          <img src="image/selectBank/bank_30.jpg" width="150" height="40"></div>
+        <div class="bankno">6222 **** **** 7356</div>
+        <a href="javascript:;" class="setCard">设为默认卡</a>
+        <a href="javascript:;" class="delCard">删除</a>
+      </div>
+      <div class="uc-mybank" onmouseover="$(this).find('div.opbank').show();" onmouseout="$(this).find('div.opbank').hide();">
+        <div class="bank">
+          <img src="image/selectBank/bank_30.jpg" width="150" height="40"></div>
+        <div class="bankno">6222 **** **** 7356</div>
+        <a href="javascript:;" class="setCard">设为默认卡</a>
+        <a href="javascript:;" class="delCard">删除</a>
+      </div>
+      <div class="uc-mybank" onmouseover="$(this).find('div.opbank').show();" onmouseout="$(this).find('div.opbank').hide();">
+        <div class="bank">
+          <img src="image/selectBank/bank_30.jpg" width="150" height="40"></div>
+        <div class="bankno">6222 **** **** 7356</div>
+        <a href="javascript:;" class="setCard">设为默认卡</a>
+        <a href="javascript:;" class="delCard">删除</a>
+      </div>
+    </div>
+    <div class="ms-c6">
+      <h3>
+        <span>添加银行卡</span>
+      </h3>
+      <div class="titleNote">
+        <p class="red">请务必填写您本人的借记卡卡号，否则将导致提现不成功！</p>
+        <p>该卡为您银行转账使用的账号，后续可以作为您结算、提现卡指定账户。</p>
+      </div>
+      <div class="ms-c6-m">
+
+        <!--银行卡管理 -->
+        <div class="subtab" style="min-height: 400px; display: block;">
+
+          <div class="pz-info-2">
+            <div class="ui-sub-form">
+              <label class="ui-label">真实姓名</label>
+              <span id="tip-username" data-text="提款银行卡的开户名必须是蒋维佳" style="cursor: pointer;">蒋维佳</span>
+            </div>
+            <div class="ui-sub-form">
+              <label class="ui-label">开户银行</label>
+              <select name="bank" id="bank" class="sel-b">
+                <option value="1">中国工商银行</option>
+                <option value="2">中国光大银行</option>
+                <option value="3">广发银行</option>
+                <option value="4">华夏银行</option>
+                <option value="5">中国建设银行</option>
+                <option value="6">交通银行</option>
+                <option value="7">中国民生银行</option>
+                <option value="8">中国农业银行</option>
+                <option value="9">浦发银行</option>
+                <option value="10">兴业银行</option>
+                <option value="11">中国邮政储蓄银行</option>
+                <option value="12">招商银行</option>
+                <option value="13">中国银行</option>
+                <option value="14">中信银行</option>
+                <option value="15">北京农商银行</option>
+                <option value="16">北京银行</option>
+                <option value="17">渤海银行</option>
+                <option value="18">成都银行</option>
+                <option value="19">富滇银行</option>
+                <option value="20">国家开发银行</option>
+                <option value="21">汉口银行</option>
+                <option value="22">杭州银行</option>
+                <option value="23">恒丰银行</option>
+                <option value="24">华夏银行</option>
+                <option value="25">金华银行</option>
+                <option value="26">南京银行</option>
+                <option value="27">宁波银行</option>
+                <option value="28">农村商业银行</option>
+                <option value="29">中国农村信用社</option>
+                <option value="30">平安银行</option>
+                <option value="31">青岛银行</option>
+                <option value="32">上海农村商业银行</option>
+                <option value="33">上海银行</option>
+                <option value="34">泰隆银行</option>
+                <option value="35">温州银行</option>
+                <option value="36">重庆农村商业银行</option>
+                <option value="37">重庆银行</option>
+
+              </select>
+
+            </div>
+            <div class="ui-sub-form">
+              <label class="ui-label">银行卡号</label>
+              <input type="text" id="bankCard" class="ui-input cardInput" style="width:188px">
+            </div>
+            <div class="ui-sub-form" style="padding-top:10px;">
+              <input type="button" id="cardBtn" value="保存" class="btn-b" onclick="bindBankCard()"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

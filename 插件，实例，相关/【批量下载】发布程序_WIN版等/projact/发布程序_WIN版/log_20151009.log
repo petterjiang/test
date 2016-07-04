@@ -1,0 +1,1049 @@
+2015-10-09 10:52:28:843 [INFO_LEVEL] =======°æ±¾£º3.4.18.4  ±àÒëÊ±¼ä£ºFeb 24 2014 17:34:52=======
+2015-10-09 10:52:28:875 [DEBUG_LEVEL] select * from def_intf_type
+2015-10-09 10:52:28:890 [DEBUG_LEVEL] select * from def_dev_type
+2015-10-09 10:52:28:890 [DEBUG_LEVEL] select * from def_prop
+2015-10-09 10:52:28:890 [DEBUG_LEVEL] select * from def_prop_param
+2015-10-09 10:52:28:906 [DEBUG_LEVEL] select * from def_dev_type_mf
+2015-10-09 10:52:28:906 [DEBUG_LEVEL] select * from def_ui_dev_type
+2015-10-09 10:52:28:906 [DEBUG_LEVEL] select * from def_intf_type
+2015-10-09 10:52:28:906 [DEBUG_LEVEL] select * from res_intf
+2015-10-09 10:52:28:906 [DEBUG_LEVEL] select * from view_dev
+2015-10-09 10:52:28:906 [DEBUG_LEVEL] select * from view_dev
+2015-10-09 10:52:28:906 [DEBUG_LEVEL] select * from res_link
+2015-10-09 10:52:28:906 [DEBUG_LEVEL] select * from def_prop
+2015-10-09 10:52:28:906 [DEBUG_LEVEL] select * from def_prop_param
+2015-10-09 10:52:28:921 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:52:28:921 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:52:28:921 [DEBUG_LEVEL] select * from res_pue
+2015-10-09 10:52:28:921 [DEBUG_LEVEL] select * from res_pue_dtl where pue_id=1
+2015-10-09 10:52:28:921 [DEBUG_LEVEL] select * from res_phone
+2015-10-09 10:52:28:921 [DEBUG_LEVEL] select * from res_di_trans
+2015-10-09 10:52:28:921 [DEBUG_LEVEL] select * from res_ai_trans
+2015-10-09 10:52:28:046 [DEBUG_LEVEL] select * from res_intf
+2015-10-09 10:52:28:078 [DEBUG_LEVEL] select * from res_dev where intf_id=3
+2015-10-09 10:52:33:312 [DEBUG_LEVEL] select * from res_dev where intf_id=7
+2015-10-09 10:52:38:281 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:38:281 [INFO_LEVEL] CWebServer start at port:8002
+2015-10-09 10:52:38:281 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:38:281 [INFO_LEVEL] FcServer StartUp(DB:sqlite.db)
+2015-10-09 10:52:38:281 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (5, 0, '24.1', '2015-10-09 10:52:38')
+2015-10-09 10:52:38:281 [INFO_LEVEL] CCmdServer start at port 3333
+2015-10-09 10:52:38:421 [DEBUG_LEVEL] pue_id:1, pue_value:0.37
+2015-10-09 10:52:38:421 [DEBUG_LEVEL] select count(*) from res_pue_his
+2015-10-09 10:52:38:421 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:38:421 [DEBUG_LEVEL] insert into res_pue_his(pue_id, pue_value, rec_time) values (1, '0.37', '2015-10-09 10:52:38')
+2015-10-09 10:52:38:484 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:38:484 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:38:484 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (5, 1, '65.5', '2015-10-09 10:52:38')
+2015-10-09 10:52:38:562 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:38:562 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:38:562 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 0, '224.1', '2015-10-09 10:52:38')
+2015-10-09 10:52:38:687 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:38:703 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:38:703 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 1, '0', '2015-10-09 10:52:38')
+2015-10-09 10:52:38:812 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:38:812 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:38:812 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 2, '0', '2015-10-09 10:52:38')
+2015-10-09 10:52:38:937 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:38:937 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:38:937 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 3, '1.065', '2015-10-09 10:52:38')
+2015-10-09 10:52:38:046 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:38:046 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:38:046 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 4, '0', '2015-10-09 10:52:38')
+2015-10-09 10:52:38:156 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:38:156 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:38:156 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 5, '0', '2015-10-09 10:52:38')
+2015-10-09 10:52:39:265 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:39:265 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:39:265 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 6, '3.4', '2015-10-09 10:52:39')
+2015-10-09 10:52:39:484 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:39:484 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:39:484 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 7, '0', '2015-10-09 10:52:39')
+2015-10-09 10:52:39:625 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:39:625 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:39:625 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 8, '0', '2015-10-09 10:52:39')
+2015-10-09 10:52:39:734 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:39:734 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:39:734 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 9, '0', '2015-10-09 10:52:39')
+2015-10-09 10:52:39:859 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:39:859 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:39:859 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 10, '0', '2015-10-09 10:52:39')
+2015-10-09 10:52:39:000 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:39:000 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:39:000 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 11, '64', '2015-10-09 10:52:39')
+2015-10-09 10:52:39:125 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:39:140 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:39:140 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 12, '170', '2015-10-09 10:52:39')
+2015-10-09 10:52:40:218 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:40:218 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:40:234 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 13, '0', '2015-10-09 10:52:40')
+2015-10-09 10:52:40:312 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:40:312 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:40:312 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 14, '0', '2015-10-09 10:52:40')
+2015-10-09 10:52:40:437 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:40:437 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:40:437 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 15, '0', '2015-10-09 10:52:40')
+2015-10-09 10:52:40:546 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:40:546 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:40:546 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (3, 16, '1', '2015-10-09 10:52:40')
+2015-10-09 10:52:40:671 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:40:671 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:40:671 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 0, '224.1', '2015-10-09 10:52:40')
+2015-10-09 10:52:40:796 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:40:796 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:40:796 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 1, '0', '2015-10-09 10:52:40')
+2015-10-09 10:52:40:906 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:40:906 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:40:906 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 2, '0', '2015-10-09 10:52:40')
+2015-10-09 10:52:40:000 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:40:031 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:40:031 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 3, '1.065', '2015-10-09 10:52:40')
+2015-10-09 10:52:40:140 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:40:140 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:40:140 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 4, '0', '2015-10-09 10:52:40')
+2015-10-09 10:52:41:250 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:41:250 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:41:250 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 5, '0', '2015-10-09 10:52:41')
+2015-10-09 10:52:41:375 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:41:375 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:41:375 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 6, '3.4', '2015-10-09 10:52:41')
+2015-10-09 10:52:41:468 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:41:484 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:41:500 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 7, '0', '2015-10-09 10:52:41')
+2015-10-09 10:52:41:593 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:41:593 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:41:609 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 8, '0', '2015-10-09 10:52:41')
+2015-10-09 10:52:41:718 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:41:718 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:41:718 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 9, '0', '2015-10-09 10:52:41')
+2015-10-09 10:52:41:828 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:41:828 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:41:828 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 10, '0', '2015-10-09 10:52:41')
+2015-10-09 10:52:41:937 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:41:937 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:41:937 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 11, '64', '2015-10-09 10:52:41')
+2015-10-09 10:52:41:046 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:41:046 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:41:046 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 12, '170', '2015-10-09 10:52:41')
+2015-10-09 10:52:41:203 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:41:203 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:41:203 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 13, '0', '2015-10-09 10:52:41')
+2015-10-09 10:52:42:328 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:42:328 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:42:328 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 14, '0', '2015-10-09 10:52:42')
+2015-10-09 10:52:42:437 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:42:437 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:42:437 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 15, '0', '2015-10-09 10:52:42')
+2015-10-09 10:52:42:546 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:42:546 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:42:546 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (6, 16, '1', '2015-10-09 10:52:42')
+2015-10-09 10:52:42:718 [DEBUG_LEVEL] pue_id:1, pue_value:0.36
+2015-10-09 10:52:42:765 [DEBUG_LEVEL] pue_id:1, pue_value:0.35
+2015-10-09 10:52:43:328 [DEBUG_LEVEL] pue_id:1, pue_value:0.34
+2015-10-09 10:52:43:390 [DEBUG_LEVEL] pue_id:1, pue_value:0.35
+2015-10-09 10:52:43:984 [DEBUG_LEVEL] pue_id:1, pue_value:0.34
+2015-10-09 10:52:43:046 [DEBUG_LEVEL] pue_id:1, pue_value:0.33
+2015-10-09 10:52:44:578 [DEBUG_LEVEL] pue_id:1, pue_value:0.36
+2015-10-09 10:52:44:625 [DEBUG_LEVEL] pue_id:1, pue_value:0.37
+2015-10-09 10:52:44:921 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:44:921 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:44:921 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (2, 0, '0', '2015-10-09 10:52:44')
+2015-10-09 10:52:45:031 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:45:031 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:45:031 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (1, 0, '1', '2015-10-09 10:52:45')
+2015-10-09 10:52:46:234 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:46:234 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:46:234 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (1, 1, '0', '2015-10-09 10:52:46')
+2015-10-09 10:52:46:406 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:46:406 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:46:406 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (1, 2, '0', '2015-10-09 10:52:46')
+2015-10-09 10:52:46:609 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:46:609 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:46:609 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (1, 3, '1', '2015-10-09 10:52:46')
+2015-10-09 10:52:46:734 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:46:734 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:46:734 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (1, 4, '20', '2015-10-09 10:52:46')
+2015-10-09 10:52:46:875 [DEBUG_LEVEL] select count(*) from res_dev_his
+2015-10-09 10:52:46:875 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:52:46:875 [DEBUG_LEVEL] insert into res_dev_his(ui_dev_id, ui_prop_id, prop_value, rec_time) values (1, 5, '27.7', '2015-10-09 10:52:46')
+2015-10-09 10:52:46:968 [DEBUG_LEVEL] pue_id:1, pue_value:0.36
+2015-10-09 10:52:46:015 [DEBUG_LEVEL] pue_id:1, pue_value:0.35
+2015-10-09 10:52:47:187 [INFO_LEVEL] Éè±¸[ÎÂÊª¶È]ÀëÏß
+2015-10-09 10:52:51:218 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:52:51:218 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"system_name"}
+2015-10-09 10:52:51:218 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:52:51:234 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:52:51:234 [DEBUG_LEVEL] select * from sys_param where param_key='system_name'
+2015-10-09 10:52:51:234 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:52:52:203 [DEBUG_LEVEL] Call CWebServer func: Login, string:{"user_name":"admin","user_password":"21232f297a57a5a743894a0e4a801fc3"}
+2015-10-09 10:52:52:203 [DEBUG_LEVEL] select * from sys_user where user_name='admin' and user_password='21232F297A57A5A743894A0E4A801FC3'
+2015-10-09 10:52:52:218 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:52:52:218 [DEBUG_LEVEL] update sys_user set last_time='2015-10-09 10:52:52' where user_id=1
+2015-10-09 10:52:52:281 [DEBUG_LEVEL] CWebServer func: Login, return:{"last_time":"0-00-00 00:00:00","role_type":0,"room_type":1,"user_id":1,"user_name":"admin"}
+2015-10-09 10:52:52:359 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:52:52:359 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:52:52:359 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52835)
+2015-10-09 10:52:52:359 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:52:52:359 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:52:52:359 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:52:52:359 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"room_name"}
+2015-10-09 10:52:52:375 [DEBUG_LEVEL] select * from sys_param where param_key='room_name'
+2015-10-09 10:52:52:375 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:52:52:390 [DEBUG_LEVEL] Call CWebServer func: GetUiDevTypeList, string:
+2015-10-09 10:52:52:390 [DEBUG_LEVEL] CWebServer func: GetUiDevTypeList, return:[{"dev_type":28,"file_path":"images/upload_bg/ui_dev_type2800.png","system_class":3,"ui_dev_type":2800,"ui_dev_type_name":"CDMA"},{"dev_type":29,"file_path":"images/upload_bg/ui_dev_type2900.png","system_class":1,"ui_dev_type":2900,"ui_dev_type_name":"AIÊäÈë"},{"dev_type":30,"file_path":"images/upload_bg/ui_dev_type3000.png","system_class":1,"ui_dev_type":3000,"ui_dev_type_name":"DIÊäÈë"},{"dev_type":31,"file_path":"images/upload_bg/ui_dev_type3100.png","system_class":3,"ui_dev_type":3100,"ui_dev_type_name":"DOÊä³ö"},{"dev_type":31,"file_path":"images/upload_bg/ui_dev_type3101.png","system_class":3,"ui_dev_type":3101,"ui_dev_type_name":"µÆ"},{"dev_type":32,"file_path":"images/upload_bg/ui_dev_type3200.png","system_class":1,"ui_dev_type":3200,"ui_dev_type_name":"ÎÂÊª¶È"},{"dev_type":33,"file_path":"images/upload_bg/ui_dev_type3300.png","system_class":3,"ui_dev_type":3300,"ui_dev_type_name":"¿Õµ÷¿ØÖÆÆ÷"},{"dev_type":34,"file_path":"images/upload_bg/ui_dev_type3400.png","system_class":0,"ui_dev_type":3400,"ui_dev_type_name":"UPS"},{"dev_type":35,"file_path":"images/upload_bg/ui_dev_type3500.png","system_class":2,"ui_dev_type":3500,"ui_dev_type_name":"µçÁ¿ÒÇ"},{"dev_type":36,"file_path":"images/upload_bg/ui_dev_type3600.png","system_class":2,"ui_dev_type":3600,"ui_dev_type_name":"µç³Ø¼ì²âÒÇ"},{"dev_type":37,"file_path":"images/upload_bg/ui_dev_type3700.png","system_class":1,"ui_dev_type":3700,"ui_dev_type_name":"¾«ÃÜ¿Õµ÷"},{"dev_type":38,"file_path":"images/upload_bg/ui_dev_type3800.png","system_class":1,"ui_dev_type":3800,"ui_dev_type_name":"24Â·DI"},{"dev_type":39,"file_path":"images/upload_bg/ui_dev_type3900.png","system_class":1,"ui_dev_type":3900,"ui_dev_type_name":"´«¸ÐÆ÷"},{"dev_type":40,"file_path":"images/upload_bg/ui_dev_type4000.png","system_class":1,"ui_dev_type":4000,"ui_dev_type_name":"²É¼¯Ä£¿é"},{"dev_type":41,"file_path":"images/upload_bg/ui_dev_type4100.png","system_class":0,"ui_dev_type":4100,"ui_dev_type_name":"ÆÕÍ¨¿Õµ
+2015-10-09 10:52:52:406 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:52:52:406 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:52:53:281 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"224.7","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.021","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"121","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"120","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:52:53:359 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52835)
+2015-10-09 10:52:53:359 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52835)
+2015-10-09 10:52:54:812 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"20.5","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"25.5","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:52:54:875 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52835)
+2015-10-09 10:52:54:875 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52835)
+2015-10-09 10:52:55:468 [DEBUG_LEVEL] pue_id:1, pue_value:0.36
+2015-10-09 10:52:55:515 [DEBUG_LEVEL] pue_id:1, pue_value:0.35
+2015-10-09 10:52:56:968 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"24.4","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.36"},{"ui_dev_prop":{"prop_value":"68.8","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.35"}]
+2015-10-09 10:52:56:984 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52835)
+2015-10-09 10:52:56:984 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52835)
+2015-10-09 10:52:57:375 [DEBUG_LEVEL] Call CWebServer func: GetAreaList, string:{"type":"1"}
+2015-10-09 10:52:57:375 [DEBUG_LEVEL] select * from res_area
+2015-10-09 10:52:57:375 [DEBUG_LEVEL] CWebServer func: GetAreaList, return:{"area_id":0,"area_name":"×ÜÇøÓò","area_x":0,"area_y":0,"child":null,"file_path":""}
+2015-10-09 10:52:57:375 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:52:57:375 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:52:57:390 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:52:57:406 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:52:57:406 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:52:57:406 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:52:57:406 [DEBUG_LEVEL] Call CWebServer func: SearchIntfList, string:
+2015-10-09 10:52:57:406 [DEBUG_LEVEL] Call CWebServer func: GetBoxList, string:
+2015-10-09 10:52:57:406 [DEBUG_LEVEL] Call CWebServer func: GetDevTypeList, string:
+2015-10-09 10:52:58:734 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"225.3","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.027","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"-117","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"170","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:52:58:734 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"225.3","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.027","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"-117","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"170","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:52:58:765 [DEBUG_LEVEL] select * from res_intf
+2015-10-09 10:52:58:765 [DEBUG_LEVEL] CWebServer func: SearchIntfList, return:
+2015-10-09 10:52:58:765 [DEBUG_LEVEL] select * from res_box
+2015-10-09 10:52:58:781 [DEBUG_LEVEL] CWebServer func: GetBoxList, return:[{"box_id":0}]
+2015-10-09 10:52:58:781 [DEBUG_LEVEL] CWebServer func: GetDevTypeList, return:[{"dev_type":28,"dev_type_name":"CDMA"},{"dev_type":29,"dev_type_name":"AIÊäÈë"},{"dev_type":30,"dev_type_name":"DIÊäÈë"},{"dev_type":31,"dev_type_name":"DOÊä³ö"},{"dev_type":32,"dev_type_name":"ÎÂÊª¶È"},{"dev_type":33,"dev_type_name":"¿Õµ÷¿ØÖÆÆ÷"},{"dev_type":34,"dev_type_name":"UPS"},{"dev_type":35,"dev_type_name":"µçÁ¿ÒÇ"},{"dev_type":36,"dev_type_name":"µç³Ø¼ì²âÒÇ"},{"dev_type":37,"dev_type_name":"¾«ÃÜ¿Õµ÷"},{"dev_type":38,"dev_type_name":"24Â·DI"},{"dev_type":39,"dev_type_name":"´«¸ÐÆ÷"},{"dev_type":40,"dev_type_name":"²É¼¯Ä£¿é"},{"dev_type":41,"dev_type_name":"ÆÕÍ¨¿Õµ÷"},{"dev_type":256,"dev_type_name":"¶ÌÐÅ¸æ¾¯ÖÐÐÄ"},{"dev_type":257,"dev_type_name":"Ping¼ì²â"}]
+2015-10-09 10:52:58:796 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:52:58:796 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:52:58:812 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52835)
+2015-10-09 10:52:58:843 [DEBUG_LEVEL] Call CWebServer func: GetIntfList, string:
+2015-10-09 10:52:58:843 [DEBUG_LEVEL] select * from res_intf
+2015-10-09 10:52:58:843 [DEBUG_LEVEL] select * from res_box
+2015-10-09 10:52:58:843 [DEBUG_LEVEL] CWebServer func: GetIntfList, return:[{"box_id":0,"box_port":0,"intf_addr":0,"intf_id":1,"intf_sn":0,"intf_type":1,"intf_type_name":"ÄÚÖÃIPÄ£¿é","online_sts":1,"remark":0},{"box_id":-1,"box_port":-1,"intf_addr":1,"intf_id":2,"intf_sn":1,"intf_type":2,"intf_type_name":"¼ÌµçÆ÷Êä³öDO","online_sts":1,"remark":0},{"box_id":0,"box_port":1,"intf_addr":3,"intf_id":3,"intf_sn":3,"intf_type":3,"intf_type_name":"RS232/RS485½Ó¿Ú","online_sts":1,"remark":0},{"box_id":-1,"box_port":-1,"intf_addr":6,"intf_id":4,"intf_sn":6,"intf_type":4,"intf_type_name":"CDMAÄ£¿é","online_sts":1,"remark":0},{"box_id":-1,"box_port":-1,"intf_addr":7,"intf_id":5,"intf_sn":7,"intf_type":65520,"intf_type_name":"AI/DIÄ£¿é","online_sts":1,"remark":0},{"box_id":0,"box_port":2,"intf_addr":2,"intf_id":6,"intf_sn":2,"intf_type":2,"intf_type_name":"¼ÌµçÆ÷Êä³öDO","online_sts":1,"remark":0},{"box_id":-1,"box_port":-1,"intf_addr":4,"intf_id":7,"intf_sn":4,"intf_type":3,"intf_type_name":"RS232/RS485½Ó¿Ú","online_sts":1,"remark":0},{"box_id":-1,"box_port":-1,"intf_addr":5,"intf_id":8,"intf_sn":5,"intf_type":65520,"intf_type_name":"AI/DIÄ£¿é","online_sts":1,"remark":0}]
+2015-10-09 10:53:00:484 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"223.7","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.011","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"115","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"90","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:53:00:500 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:00:500 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:01:031 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"21.6","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"27.4","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:53:01:109 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:01:109 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:02:390 [DEBUG_LEVEL] Call CWebServer func: ModIntfBox, string:{"box_id":"0","box_port":"3","intf_id":"7"}
+2015-10-09 10:53:02:390 [DEBUG_LEVEL] select * from res_intf where intf_id=7
+2015-10-09 10:53:02:390 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:02:390 [DEBUG_LEVEL] update res_box set intf_id=0 where intf_id=7
+2015-10-09 10:53:02:390 [DEBUG_LEVEL] select * from res_box where box_id=0 and box_port=3
+2015-10-09 10:53:02:390 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:02:390 [DEBUG_LEVEL] update res_box set intf_id=7 where box_id=0 and box_port=3
+2015-10-09 10:53:02:453 [DEBUG_LEVEL] CWebServer func: ModIntfBox, return:
+2015-10-09 10:53:02:468 [DEBUG_LEVEL] Call CWebServer func: GetIntfList, string:
+2015-10-09 10:53:02:468 [DEBUG_LEVEL] select * from res_intf
+2015-10-09 10:53:02:468 [DEBUG_LEVEL] select * from res_box
+2015-10-09 10:53:02:468 [DEBUG_LEVEL] CWebServer func: GetIntfList, return:[{"box_id":0,"box_port":0,"intf_addr":0,"intf_id":1,"intf_sn":0,"intf_type":1,"intf_type_name":"ÄÚÖÃIPÄ£¿é","online_sts":1,"remark":0},{"box_id":-1,"box_port":-1,"intf_addr":1,"intf_id":2,"intf_sn":1,"intf_type":2,"intf_type_name":"¼ÌµçÆ÷Êä³öDO","online_sts":1,"remark":0},{"box_id":0,"box_port":1,"intf_addr":3,"intf_id":3,"intf_sn":3,"intf_type":3,"intf_type_name":"RS232/RS485½Ó¿Ú","online_sts":1,"remark":0},{"box_id":-1,"box_port":-1,"intf_addr":6,"intf_id":4,"intf_sn":6,"intf_type":4,"intf_type_name":"CDMAÄ£¿é","online_sts":1,"remark":0},{"box_id":-1,"box_port":-1,"intf_addr":7,"intf_id":5,"intf_sn":7,"intf_type":65520,"intf_type_name":"AI/DIÄ£¿é","online_sts":1,"remark":0},{"box_id":0,"box_port":2,"intf_addr":2,"intf_id":6,"intf_sn":2,"intf_type":2,"intf_type_name":"¼ÌµçÆ÷Êä³öDO","online_sts":1,"remark":0},{"box_id":0,"box_port":3,"intf_addr":4,"intf_id":7,"intf_sn":4,"intf_type":3,"intf_type_name":"RS232/RS485½Ó¿Ú","online_sts":1,"remark":0},{"box_id":-1,"box_port":-1,"intf_addr":5,"intf_id":8,"intf_sn":5,"intf_type":65520,"intf_type_name":"AI/DIÄ£¿é","online_sts":1,"remark":0}]
+2015-10-09 10:53:02:687 [DEBUG_LEVEL] pue_id:1, pue_value:0.34
+2015-10-09 10:53:02:718 [DEBUG_LEVEL] pue_id:1, pue_value:0.36
+2015-10-09 10:53:03:187 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"23.4","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.34"},{"ui_dev_prop":{"prop_value":"65.9","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.36"}]
+2015-10-09 10:53:04:218 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:04:218 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:04:656 [DEBUG_LEVEL] Call CWebServer func: ModIntfBox, string:{"box_id":"0","box_port":"4","intf_id":"5"}
+2015-10-09 10:53:04:656 [DEBUG_LEVEL] select * from res_intf where intf_id=5
+2015-10-09 10:53:04:656 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:04:656 [DEBUG_LEVEL] update res_box set intf_id=0 where intf_id=5
+2015-10-09 10:53:04:656 [DEBUG_LEVEL] select * from res_box where box_id=0 and box_port=4
+2015-10-09 10:53:04:656 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:04:656 [DEBUG_LEVEL] update res_box set intf_id=5 where box_id=0 and box_port=4
+2015-10-09 10:53:04:718 [DEBUG_LEVEL] CWebServer func: ModIntfBox, return:
+2015-10-09 10:53:04:734 [DEBUG_LEVEL] Call CWebServer func: GetIntfList, string:
+2015-10-09 10:53:04:734 [DEBUG_LEVEL] select * from res_intf
+2015-10-09 10:53:04:734 [DEBUG_LEVEL] select * from res_box
+2015-10-09 10:53:04:734 [DEBUG_LEVEL] CWebServer func: GetIntfList, return:[{"box_id":0,"box_port":0,"intf_addr":0,"intf_id":1,"intf_sn":0,"intf_type":1,"intf_type_name":"ÄÚÖÃIPÄ£¿é","online_sts":1,"remark":0},{"box_id":-1,"box_port":-1,"intf_addr":1,"intf_id":2,"intf_sn":1,"intf_type":2,"intf_type_name":"¼ÌµçÆ÷Êä³öDO","online_sts":1,"remark":0},{"box_id":0,"box_port":1,"intf_addr":3,"intf_id":3,"intf_sn":3,"intf_type":3,"intf_type_name":"RS232/RS485½Ó¿Ú","online_sts":1,"remark":0},{"box_id":-1,"box_port":-1,"intf_addr":6,"intf_id":4,"intf_sn":6,"intf_type":4,"intf_type_name":"CDMAÄ£¿é","online_sts":1,"remark":0},{"box_id":0,"box_port":4,"intf_addr":7,"intf_id":5,"intf_sn":7,"intf_type":65520,"intf_type_name":"AI/DIÄ£¿é","online_sts":1,"remark":0},{"box_id":0,"box_port":2,"intf_addr":2,"intf_id":6,"intf_sn":2,"intf_type":2,"intf_type_name":"¼ÌµçÆ÷Êä³öDO","online_sts":1,"remark":0},{"box_id":0,"box_port":3,"intf_addr":4,"intf_id":7,"intf_sn":4,"intf_type":3,"intf_type_name":"RS232/RS485½Ó¿Ú","online_sts":1,"remark":0},{"box_id":-1,"box_port":-1,"intf_addr":5,"intf_id":8,"intf_sn":5,"intf_type":65520,"intf_type_name":"AI/DIÄ£¿é","online_sts":1,"remark":0}]
+2015-10-09 10:53:05:640 [DEBUG_LEVEL] Call CWebServer func: GetDevList, string:
+2015-10-09 10:53:05:640 [DEBUG_LEVEL] select * from res_dev where  1=1
+2015-10-09 10:53:05:640 [DEBUG_LEVEL] CWebServer func: GetDevList, return:[{"dev_addr":"","dev_id":1,"dev_name":"DO1","dev_type":31,"intf_id":2,"intf_sub":0,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":2,"dev_name":"DO2","dev_type":31,"intf_id":2,"intf_sub":1,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":3,"dev_name":"DO3","dev_type":31,"intf_id":2,"intf_sub":2,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":4,"dev_name":"DO4","dev_type":31,"intf_id":2,"intf_sub":3,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":5,"dev_name":"DO5","dev_type":31,"intf_id":2,"intf_sub":4,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":6,"dev_name":"DO6","dev_type":31,"intf_id":2,"intf_sub":5,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":7,"dev_name":"DO7","dev_type":31,"intf_id":2,"intf_sub":6,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":8,"dev_name":"DO8","dev_type":31,"intf_id":2,"intf_sub":7,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":9,"dev_name":"CDMA","dev_type":28,"intf_id":4,"intf_sub":0,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":10,"dev_name":"AI1","dev_type":29,"intf_id":5,"intf_sub":0,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":11,"dev_name":"AI2","dev_type":29,"intf_id":5,"intf_sub":1,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":12,"dev_name":"AI3","dev_type":29,"intf_id":5,"intf_sub":2,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":13,"dev_name":"AI4","dev_type":29,"intf_id":5,"intf_sub":3,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":14,"dev_name":"DI1","dev_type":30,"intf_id":5,"intf_sub":0,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":15,"dev_name":"DI2","dev_type":30,"intf_id":5,"intf_sub":1,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":16,"dev_name":"DI3","dev_type":30,"intf_id":5,"intf_sub":2,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":17,"dev_name":"DI4","dev_type":30,"intf_id":5,"intf_sub":3,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":18,"dev_name":"DO1","dev_type":31,"intf_id":6,"intf_sub":0,"mf_id":0,"remark":""},{"dev_addr":"","dev_id":19,"dev_name":"DO2","dev_type":31,"intf_id":6,"i
+2015-10-09 10:53:05:640 [DEBUG_LEVEL] Call CWebServer func: GetUiDevByDev, string:{"dev_id":"10"}
+2015-10-09 10:53:05:640 [DEBUG_LEVEL] select * from view_dev_ui where dev_id=10
+2015-10-09 10:53:05:656 [DEBUG_LEVEL] CWebServer func: GetUiDevByDev, return:
+2015-10-09 10:53:05:656 [DEBUG_LEVEL] Call CWebServer func: GetUiDevByDev, string:{"dev_id":"11"}
+2015-10-09 10:53:05:656 [DEBUG_LEVEL] select * from view_dev_ui where dev_id=11
+2015-10-09 10:53:05:656 [DEBUG_LEVEL] CWebServer func: GetUiDevByDev, return:
+2015-10-09 10:53:05:656 [DEBUG_LEVEL] Call CWebServer func: GetUiDevByDev, string:{"dev_id":"12"}
+2015-10-09 10:53:05:656 [DEBUG_LEVEL] select * from view_dev_ui where dev_id=12
+2015-10-09 10:53:05:656 [DEBUG_LEVEL] CWebServer func: GetUiDevByDev, return:
+2015-10-09 10:53:05:656 [DEBUG_LEVEL] Call CWebServer func: GetUiDevByDev, string:{"dev_id":"13"}
+2015-10-09 10:53:05:656 [DEBUG_LEVEL] select * from view_dev_ui where dev_id=13
+2015-10-09 10:53:05:656 [DEBUG_LEVEL] CWebServer func: GetUiDevByDev, return:
+2015-10-09 10:53:05:656 [DEBUG_LEVEL] Call CWebServer func: GetUiDevByDev, string:{"dev_id":"14"}
+2015-10-09 10:53:05:656 [DEBUG_LEVEL] select * from view_dev_ui where dev_id=14
+2015-10-09 10:53:05:656 [DEBUG_LEVEL] CWebServer func: GetUiDevByDev, return:
+2015-10-09 10:53:05:671 [DEBUG_LEVEL] Call CWebServer func: GetUiDevByDev, string:{"dev_id":"15"}
+2015-10-09 10:53:05:671 [DEBUG_LEVEL] select * from view_dev_ui where dev_id=15
+2015-10-09 10:53:05:671 [DEBUG_LEVEL] CWebServer func: GetUiDevByDev, return:
+2015-10-09 10:53:05:703 [DEBUG_LEVEL] Call CWebServer func: GetUiDevByDev, string:{"dev_id":"16"}
+2015-10-09 10:53:05:703 [DEBUG_LEVEL] select * from view_dev_ui where dev_id=16
+2015-10-09 10:53:05:703 [DEBUG_LEVEL] CWebServer func: GetUiDevByDev, return:
+2015-10-09 10:53:05:734 [DEBUG_LEVEL] Call CWebServer func: GetUiDevByDev, string:{"dev_id":"17"}
+2015-10-09 10:53:05:734 [DEBUG_LEVEL] select * from view_dev_ui where dev_id=17
+2015-10-09 10:53:05:734 [DEBUG_LEVEL] CWebServer func: GetUiDevByDev, return:
+2015-10-09 10:53:05:953 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"224.3","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.017","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"-123","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"140","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:53:05:046 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:05:046 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:07:718 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"221.2","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.086","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"117","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"100","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:53:07:750 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:07:781 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:09:265 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"22.6","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"26.1","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:53:09:296 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:09:296 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:09:921 [DEBUG_LEVEL] pue_id:1, pue_value:0.34
+2015-10-09 10:53:09:968 [DEBUG_LEVEL] pue_id:1, pue_value:0.34
+2015-10-09 10:53:11:421 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"22.5","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.34"},{"ui_dev_prop":{"prop_value":"66.9","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.34"}]
+2015-10-09 10:53:11:515 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:11:515 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:12:187 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"223.3","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.008","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"94","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"130","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:53:13:218 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:13:218 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:14:937 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"225.2","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.076","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"111","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"170","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:53:14:031 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:14:031 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:16:484 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"23.6","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"28.8","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:53:16:546 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:16:546 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:16:031 [DEBUG_LEVEL] Call CWebServer func: DevId2UiDevType, string:{"dev_id":"10"}
+2015-10-09 10:53:16:031 [DEBUG_LEVEL] select * from res_dev where dev_id=10
+2015-10-09 10:53:16:031 [DEBUG_LEVEL] CWebServer func: DevId2UiDevType, return:[{"ui_dev_type":2900,"ui_dev_type_name":"AIÊäÈë"}]
+2015-10-09 10:53:16:140 [DEBUG_LEVEL] pue_id:1, pue_value:0.37
+2015-10-09 10:53:16:187 [DEBUG_LEVEL] pue_id:1, pue_value:0.36
+2015-10-09 10:53:18:640 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"24.5","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.37"},{"ui_dev_prop":{"prop_value":"67.9","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.36"}]
+2015-10-09 10:53:18:656 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:18:656 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:20:406 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"222.4","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.098","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"88","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"100","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:53:20:468 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:20:468 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:21:156 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"224.2","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.067","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"104","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"160","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:53:21:171 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:21:171 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:23:718 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"23.1","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"27.9","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:53:23:781 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:23:781 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:24:375 [DEBUG_LEVEL] pue_id:1, pue_value:0.34
+2015-10-09 10:53:24:406 [DEBUG_LEVEL] pue_id:1, pue_value:0.34
+2015-10-09 10:53:24:640 [DEBUG_LEVEL] Call CWebServer func: GetUserList, string:
+2015-10-09 10:53:24:640 [DEBUG_LEVEL] select * from view_user
+2015-10-09 10:53:24:640 [DEBUG_LEVEL] CWebServer func: GetUserList, return:[{"create_time":"2014-02-12 06:29:08","last_time":"2015-10-09 10:52:52","remark":"","role_type":0,"role_type_name":"ÄÚÖÃ¹ÜÀíÔ±","user_id":1,"user_name":"admin"},{"create_time":"2014-02-12 06:29:08","last_time":"2014-02-12 06:29:08","remark":"","role_type":2,"role_type_name":"ÆÕÍ¨ÓÃ»§","user_id":2,"user_name":"user"}]
+2015-10-09 10:53:24:640 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"room_name"}
+2015-10-09 10:53:24:640 [DEBUG_LEVEL] select * from sys_param where param_key='room_name'
+2015-10-09 10:53:24:640 [DEBUG_LEVEL] Call CWebServer func: GetRoleList, string:
+2015-10-09 10:53:24:640 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:53:24:640 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:53:24:640 [DEBUG_LEVEL] select * from def_role
+2015-10-09 10:53:24:640 [DEBUG_LEVEL] CWebServer func: GetRoleList, return:[{"role_type":0,"role_type_name":"ÄÚÖÃ¹ÜÀíÔ±"},{"role_type":1,"role_type_name":"¹ÜÀíÔ±"},{"role_type":2,"role_type_name":"ÆÕÍ¨ÓÃ»§"}]
+2015-10-09 10:53:24:640 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:53:24:640 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52876)
+2015-10-09 10:53:24:640 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:53:24:640 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:53:24:640 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:53:24:671 [DEBUG_LEVEL] Call CWebServer func: GetAreaList, string:{"type":"1"}
+2015-10-09 10:53:24:671 [DEBUG_LEVEL] select * from res_area
+2015-10-09 10:53:24:671 [DEBUG_LEVEL] CWebServer func: GetAreaList, return:{"area_id":0,"area_name":"×ÜÇøÓò","area_x":0,"area_y":0,"child":null,"file_path":""}
+2015-10-09 10:53:25:875 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"23","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.34"},{"ui_dev_prop":{"prop_value":"67.4","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.34"}]
+2015-10-09 10:53:25:875 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"23","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.34"},{"ui_dev_prop":{"prop_value":"67.4","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.34"}]
+2015-10-09 10:53:25:890 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52844)
+2015-10-09 10:53:25:953 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52876)
+2015-10-09 10:53:25:953 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52876)
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:53:26:078 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52887)
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] Call CWebServer func: GetIpInfo, string:
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] Call CWebServer func: GetAreaList, string:{"type":"1"}
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] select * from res_area
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"system_name"}
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] CWebServer func: GetAreaList, return:{"area_id":0,"area_name":"×ÜÇøÓò","area_x":0,"area_y":0,"child":null,"file_path":""}
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] select * from sys_param where param_key='system_name'
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] CWebServer func: GetIpInfo, return:{"gateway":"10.10.6.254","ip":"10.10.6.57","mac":"B8:97:5A:B6:E8:66","mask":"255.255.255.0"}
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"room_name"}
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] select * from sys_param where param_key='room_name'
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:53:26:078 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:53:26:093 [DEBUG_LEVEL] Call CWebServer func: GetVerInfo, string:
+2015-10-09 10:53:26:093 [DEBUG_LEVEL] CWebServer func: GetVerInfo, return:{"compile_time":"Feb 24 2014 17:34:53","room_type":1,"ver":"3.4.18.4"}
+2015-10-09 10:53:27:625 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"221.4","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.089","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"82","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"180","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:53:27:625 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"221.4","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.089","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"82","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"180","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:53:27:656 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52876)
+2015-10-09 10:53:27:671 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52887)
+2015-10-09 10:53:27:671 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52887)
+2015-10-09 10:53:29:375 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"223.3","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.057","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"98","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"130","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:53:29:390 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52887)
+2015-10-09 10:53:29:390 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52887)
+2015-10-09 10:53:30:328 [DEBUG_LEVEL] Call CWebServer func: SetSysParam, string:{"param_key":"gs_name","param_value":"¸£¿Ø¿Æ¼¼"}
+2015-10-09 10:53:30:328 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:53:30:328 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:53:30:343 [DEBUG_LEVEL] insert into sys_param(param_key, param_value, remark) values ('gs_name', '¸£¿Ø¿Æ¼¼', '')
+2015-10-09 10:53:30:390 [DEBUG_LEVEL] CWebServer func: SetSysParam, return:
+2015-10-09 10:53:30:937 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"20.2","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"26.6","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:53:30:000 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52887)
+2015-10-09 10:53:31:593 [DEBUG_LEVEL] pue_id:1, pue_value:0.33
+2015-10-09 10:53:31:625 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52887)
+2015-10-09 10:53:31:625 [DEBUG_LEVEL] pue_id:1, pue_value:0.32
+2015-10-09 10:53:31:671 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:53:31:671 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:53:31:671 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52895)
+2015-10-09 10:53:31:984 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:53:31:984 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:53:31:984 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:{"param_value":"¸£¿Ø¿Æ¼¼"}
+2015-10-09 10:53:31:984 [DEBUG_LEVEL] Call CWebServer func: GetAreaList, string:{"type":"1"}
+2015-10-09 10:53:31:984 [DEBUG_LEVEL] select * from res_area
+2015-10-09 10:53:31:984 [DEBUG_LEVEL] CWebServer func: GetAreaList, return:{"area_id":0,"area_name":"×ÜÇøÓò","area_x":0,"area_y":0,"child":null,"file_path":""}
+2015-10-09 10:53:31:984 [DEBUG_LEVEL] Call CWebServer func: GetIpInfo, string:
+2015-10-09 10:53:31:984 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"room_name"}
+2015-10-09 10:53:31:000 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:53:31:000 [DEBUG_LEVEL] select * from sys_param where param_key='room_name'
+2015-10-09 10:53:31:000 [DEBUG_LEVEL] CWebServer func: GetIpInfo, return:{"gateway":"10.10.6.254","ip":"10.10.6.57","mac":"B8:97:5A:B6:E8:66","mask":"255.255.255.0"}
+2015-10-09 10:53:31:000 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:53:31:000 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:53:31:000 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:{"param_value":"¸£¿Ø¿Æ¼¼"}
+2015-10-09 10:53:31:031 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"system_name"}
+2015-10-09 10:53:31:031 [DEBUG_LEVEL] select * from sys_param where param_key='system_name'
+2015-10-09 10:53:31:031 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:53:31:046 [DEBUG_LEVEL] Call CWebServer func: GetVerInfo, string:
+2015-10-09 10:53:31:046 [DEBUG_LEVEL] CWebServer func: GetVerInfo, return:{"compile_time":"Feb 24 2014 17:34:53","room_type":1,"ver":"3.4.18.4"}
+2015-10-09 10:53:32:093 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"22","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.33"},{"ui_dev_prop":{"prop_value":"68.5","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.32"}]
+2015-10-09 10:53:32:109 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"22","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.33"},{"ui_dev_prop":{"prop_value":"68.5","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.32"}]
+2015-10-09 10:53:32:156 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52887)
+2015-10-09 10:53:32:187 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52895)
+2015-10-09 10:53:32:187 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52895)
+2015-10-09 10:53:34:843 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"223.9","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.063","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"84","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"90","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:53:34:906 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52895)
+2015-10-09 10:53:34:906 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52895)
+2015-10-09 10:53:36:203 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:53:36:203 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:36:203 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:53:36:218 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:53:36:218 [DEBUG_LEVEL] Call CWebServer func: GetUiDevTypeList, string:
+2015-10-09 10:53:36:218 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:53:36:218 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:{"param_value":"¸£¿Ø¿Æ¼¼"}
+2015-10-09 10:53:36:218 [DEBUG_LEVEL] CWebServer func: GetUiDevTypeList, return:[{"dev_type":28,"file_path":"images/upload_bg/ui_dev_type2800.png","system_class":3,"ui_dev_type":2800,"ui_dev_type_name":"CDMA"},{"dev_type":29,"file_path":"images/upload_bg/ui_dev_type2900.png","system_class":1,"ui_dev_type":2900,"ui_dev_type_name":"AIÊäÈë"},{"dev_type":30,"file_path":"images/upload_bg/ui_dev_type3000.png","system_class":1,"ui_dev_type":3000,"ui_dev_type_name":"DIÊäÈë"},{"dev_type":31,"file_path":"images/upload_bg/ui_dev_type3100.png","system_class":3,"ui_dev_type":3100,"ui_dev_type_name":"DOÊä³ö"},{"dev_type":31,"file_path":"images/upload_bg/ui_dev_type3101.png","system_class":3,"ui_dev_type":3101,"ui_dev_type_name":"µÆ"},{"dev_type":32,"file_path":"images/upload_bg/ui_dev_type3200.png","system_class":1,"ui_dev_type":3200,"ui_dev_type_name":"ÎÂÊª¶È"},{"dev_type":33,"file_path":"images/upload_bg/ui_dev_type3300.png","system_class":3,"ui_dev_type":3300,"ui_dev_type_name":"¿Õµ÷¿ØÖÆÆ÷"},{"dev_type":34,"file_path":"images/upload_bg/ui_dev_type3400.png","system_class":0,"ui_dev_type":3400,"ui_dev_type_name":"UPS"},{"dev_type":35,"file_path":"images/upload_bg/ui_dev_type3500.png","system_class":2,"ui_dev_type":3500,"ui_dev_type_name":"µçÁ¿ÒÇ"},{"dev_type":36,"file_path":"images/upload_bg/ui_dev_type3600.png","system_class":2,"ui_dev_type":3600,"ui_dev_type_name":"µç³Ø¼ì²âÒÇ"},{"dev_type":37,"file_path":"images/upload_bg/ui_dev_type3700.png","system_class":1,"ui_dev_type":3700,"ui_dev_type_name":"¾«ÃÜ¿Õµ÷"},{"dev_type":38,"file_path":"images/upload_bg/ui_dev_type3800.png","system_class":1,"ui_dev_type":3800,"ui_dev_type_name":"24Â·DI"},{"dev_type":39,"file_path":"images/upload_bg/ui_dev_type3900.png","system_class":1,"ui_dev_type":3900,"ui_dev_type_name":"´«¸ÐÆ÷"},{"dev_type":40,"file_path":"images/upload_bg/ui_dev_type4000.png","system_class":1,"ui_dev_type":4000,"ui_dev_type_name":"²É¼¯Ä£¿é"},{"dev_type":41,"file_path":"images/upload_bg/ui_dev_type4100.png","system_class":0,"ui_dev_type":4100,"ui_dev_type_name":"ÆÕÍ¨¿Õµ
+2015-10-09 10:53:36:218 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:53:36:218 [DEBUG_LEVEL] Call CWebServer func: GetUiDevList, string:
+2015-10-09 10:53:36:218 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:53:36:218 [DEBUG_LEVEL] CWebServer func: GetUiDevList, return:[{"area_id":0,"area_x":0,"area_y":0,"dev_id":34,"dev_type":41,"file_path":"images/upload_bg/ui_dev_type4100.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":0,"ui_dev_id":1,"ui_dev_name":"´ó½ð¿Õµ÷","ui_dev_type":4100,"ui_dev_type_name":"ÆÕÍ¨¿Õµ÷"},{"area_id":0,"area_x":0,"area_y":0,"dev_id":18,"dev_type":31,"file_path":"images/upload_bg/ui_dev_type3101.png","in_map":0,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":3,"ui_dev_id":2,"ui_dev_name":"DO1","ui_dev_type":3101,"ui_dev_type_name":"µÆ"},{"area_id":0,"area_x":0,"area_y":0,"dev_id":35,"dev_type":34,"file_path":"images/upload_bg/ui_dev_type3400.png","in_map":0,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":0,"ui_dev_id":3,"ui_dev_name":"ups","ui_dev_type":3400,"ui_dev_type_name":"UPS"},{"area_id":0,"area_x":0,"area_y":0,"dev_id":36,"dev_type":33,"file_path":"images/upload_bg/ui_dev_type3300.png","in_map":0,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":3,"ui_dev_id":4,"ui_dev_name":"¿Õµ÷¿ØÖÆ","ui_dev_type":3300,"ui_dev_type_name":"¿Õµ÷¿ØÖÆÆ÷"},{"area_id":0,"area_x":0,"area_y":0,"dev_id":37,"dev_type":32,"file_path":"images/upload_bg/ui_dev_type3200.png","in_map":0,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":1,"ui_dev_id":5,"ui_dev_name":"ÎÂÊª¶È","ui_dev_type":3200,"ui_dev_type_name":"ÎÂÊª¶È"},{"area_id":0,"area_x":0,"area_y":0,"dev_id":38,"dev_type":34,"file_path":"images/upload_bg/ui_dev_type3400.png","in_map":0,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":0,"ui_dev_id":6,"ui_dev_name":"ups","ui_dev_type":3400,"ui_dev_type_name":"UPS"}]
+2015-10-09 10:53:36:234 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"1"}
+2015-10-09 10:53:36:234 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"2"}
+2015-10-09 10:53:36:234 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"¿ª","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":1,"ui_flag":1,"ui_prop_id":0,"ui_prop_name":"¿ª¹Ø","ui_scale":0,"units":"0:¹Ø|1:¿ª"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":11,"ui_prop_id":1,"ui_prop_name":"ÔËÐÐÄ£Ê½","ui_scale":0,"units":"0:ËÍ·ç|1:ÖÆÈÈ|2:ÖÆÀä|3:×Ô¶¯|7:³ýÊª"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"Éè¶¨ÎÂ¶È","ui_scale":0,"units":""},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"1","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":11,"ui_prop_id":3,"ui_prop_name":"·çÁ¿","ui_scale":0,"units":"1:µÍ·ç|5:Ç¿·ç"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"20.2","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":1,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"ÊÒÄÚÎÂ¶È","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"26.6","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"ÊÒÍâÎÂ¶È","ui_scale":0,"units":"¡æ"}]
+2015-10-09 10:53:36:234 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"¹Ø","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":2,"ui_flag":1,"ui_prop_id":0,"ui_prop_name":"¿ª¹Ø","ui_scale":0,"units":"0:¹Ø|1:¿ª"}]
+2015-10-09 10:53:36:250 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"3"}
+2015-10-09 10:53:36:250 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"6"}
+2015-10-09 10:53:36:250 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"4"}
+2015-10-09 10:53:36:250 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"5"}
+2015-10-09 10:53:36:250 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"223.9","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"AÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"BÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"CÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"1.063","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":3,"ui_prop_name":"AÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"BÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"CÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"3.4","send_interval"
+2015-10-09 10:53:36:265 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"222.3","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"AÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"BÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"CÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"1.048","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":3,"ui_prop_name":"AÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"BÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"CÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"3.4","send_interval"
+2015-10-09 10:53:36:265 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":0,"ui_prop_name":"×Ô¶¯Ä£Ê½","ui_scale":0,"units":""},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":1,"ui_prop_name":"ÖÆÀäÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":2,"ui_prop_name":"ÖÆÈÈÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":3,"ui_prop_name":"³ýÊªÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":4,"ui_prop_name":"ËÍ·çÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":5,"ui_prop_name":"¹Ø»ú","ui_scale":0,"units":""}]
+2015-10-09 10:53:36:265 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"22","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":5,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"ÎÂ¶È","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"68.5","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":5,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"Êª¶È","ui_scale":0,"units":"%HR"}]
+2015-10-09 10:53:36:609 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"222.3","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.048","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"60","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"100","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:53:36:609 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"222.3","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.048","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"60","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"100","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:53:36:625 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:36:625 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:36:625 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52895)
+2015-10-09 10:53:37:156 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"21.2","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"28.5","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:53:38:234 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:38:234 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:38:812 [DEBUG_LEVEL] pue_id:1, pue_value:0.35
+2015-10-09 10:53:38:812 [DEBUG_LEVEL] select count(*) from res_pue_his
+2015-10-09 10:53:38:812 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:53:38:812 [DEBUG_LEVEL] insert into res_pue_his(pue_id, pue_value, rec_time) values (1, '0.35', '2015-10-09 10:53:38')
+2015-10-09 10:53:38:921 [DEBUG_LEVEL] pue_id:1, pue_value:0.37
+2015-10-09 10:53:40:312 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"24.1","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.35"},{"ui_dev_prop":{"prop_value":"65.5","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.37"}]
+2015-10-09 10:53:40:343 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:40:343 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:41:703 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"area_x":"0.539","area_y":"0.463855421686747","ui_dev_id":"1"}
+2015-10-09 10:53:41:703 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=1
+2015-10-09 10:53:41:703 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:41:703 [DEBUG_LEVEL] update res_dev_ui set area_x=0.539, area_y=0.463855 where ui_dev_id=1
+2015-10-09 10:53:41:765 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:53:41:765 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:53:41:765 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:53:41:078 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"222.9","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.054","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"77","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"160","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:53:41:156 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:41:156 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:43:828 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"224.8","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.022","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"62","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"110","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:53:43:859 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:43:875 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:45:390 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"22.2","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"27.2","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:53:45:390 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:45:390 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:45:031 [DEBUG_LEVEL] pue_id:1, pue_value:0.35
+2015-10-09 10:53:45:078 [DEBUG_LEVEL] pue_id:1, pue_value:0.35
+2015-10-09 10:53:47:546 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"23.1","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.35"},{"ui_dev_prop":{"prop_value":"66.5","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.35"}]
+2015-10-09 10:53:47:593 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:47:609 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:48:468 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"in_map":"1","ui_dev_id":"1"}
+2015-10-09 10:53:48:468 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"in_map":"1","ui_dev_id":"2"}
+2015-10-09 10:53:48:468 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=1
+2015-10-09 10:53:48:468 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"in_map":"1","ui_dev_id":"3"}
+2015-10-09 10:53:48:468 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"in_map":"1","ui_dev_id":"4"}
+2015-10-09 10:53:48:468 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"in_map":"1","ui_dev_id":"5"}
+2015-10-09 10:53:48:468 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:48:468 [DEBUG_LEVEL] update res_dev_ui set in_map=1 where ui_dev_id=1
+2015-10-09 10:53:48:531 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:53:48:531 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:53:48:546 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=2
+2015-10-09 10:53:48:546 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:48:546 [DEBUG_LEVEL] update res_dev_ui set in_map=1 where ui_dev_id=2
+2015-10-09 10:53:48:546 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:53:48:562 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"in_map":"1","ui_dev_id":"6"}
+2015-10-09 10:53:48:625 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:53:48:625 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:53:48:625 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:53:48:625 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=3
+2015-10-09 10:53:48:625 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:48:625 [DEBUG_LEVEL] update res_dev_ui set in_map=1 where ui_dev_id=3
+2015-10-09 10:53:48:750 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:53:48:750 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:53:48:750 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:53:48:750 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=4
+2015-10-09 10:53:48:750 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:48:750 [DEBUG_LEVEL] update res_dev_ui set in_map=1 where ui_dev_id=4
+2015-10-09 10:53:48:828 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:53:48:828 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:53:48:843 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:53:48:843 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=5
+2015-10-09 10:53:48:843 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:48:843 [DEBUG_LEVEL] update res_dev_ui set in_map=1 where ui_dev_id=5
+2015-10-09 10:53:48:890 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:53:48:890 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:53:48:890 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:53:48:890 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=6
+2015-10-09 10:53:48:890 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:48:890 [DEBUG_LEVEL] update res_dev_ui set in_map=1 where ui_dev_id=6
+2015-10-09 10:53:48:968 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:53:48:968 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:53:48:968 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:53:49:296 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"222","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.044","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"71","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"150","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:53:49:312 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:49:375 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:50:062 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"223.8","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.013","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"56","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"90","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:53:50:093 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:50:093 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:51:656 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"area_x":"0.162","area_y":"0.26987951807228916","ui_dev_id":"6"}
+2015-10-09 10:53:51:656 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=6
+2015-10-09 10:53:51:656 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:51:656 [DEBUG_LEVEL] update res_dev_ui set area_x=0.162, area_y=0.26988 where ui_dev_id=6
+2015-10-09 10:53:51:718 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:53:51:718 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:53:51:718 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:53:52:609 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"21.7","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"26.3","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:53:52:671 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"area_x":"0.195","area_y":"0.22048192771084338","ui_dev_id":"5"}
+2015-10-09 10:53:52:671 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=5
+2015-10-09 10:53:52:671 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:52:671 [DEBUG_LEVEL] update res_dev_ui set area_x=0.195, area_y=0.220482 where ui_dev_id=5
+2015-10-09 10:53:52:703 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:52:703 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:52:734 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:53:52:734 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:53:52:750 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:53:53:250 [DEBUG_LEVEL] pue_id:1, pue_value:0.37
+2015-10-09 10:53:53:296 [DEBUG_LEVEL] pue_id:1, pue_value:0.37
+2015-10-09 10:53:53:093 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"area_x":"0.328","area_y":"0.3349397590361446","ui_dev_id":"4"}
+2015-10-09 10:53:53:093 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=4
+2015-10-09 10:53:53:093 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:53:093 [DEBUG_LEVEL] update res_dev_ui set area_x=0.328, area_y=0.33494 where ui_dev_id=4
+2015-10-09 10:53:53:156 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:53:53:156 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:53:53:156 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:53:54:765 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"24.6","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.37"},{"ui_dev_prop":{"prop_value":"66","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.37"}]
+2015-10-09 10:53:54:812 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:54:828 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:55:375 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"area_x":"0.129","area_y":"0.37349397590361444","ui_dev_id":"3"}
+2015-10-09 10:53:55:375 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=3
+2015-10-09 10:53:55:375 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:55:375 [DEBUG_LEVEL] update res_dev_ui set area_x=0.129, area_y=0.373494 where ui_dev_id=3
+2015-10-09 10:53:55:531 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:53:55:531 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:53:55:531 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:53:56:515 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"221","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.034","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"-123","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"120","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:53:56:531 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:56:531 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:56:906 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"area_x":"0.26","area_y":"0.5614457831325301","ui_dev_id":"2"}
+2015-10-09 10:53:56:906 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=2
+2015-10-09 10:53:56:906 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:56:906 [DEBUG_LEVEL] update res_dev_ui set area_x=0.26, area_y=0.561446 where ui_dev_id=2
+2015-10-09 10:53:56:046 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:53:56:062 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:53:56:062 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:53:58:265 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"222.9","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.003","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"49","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"180","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:53:58:343 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:58:343 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:59:312 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"area_x":"0.287","area_y":"0.26265060240963856","ui_dev_id":"4"}
+2015-10-09 10:53:59:312 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"area_x":"0.287","area_y":"0.26265060240963856","ui_dev_id":"4"}
+2015-10-09 10:53:59:312 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=4
+2015-10-09 10:53:59:312 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:59:328 [DEBUG_LEVEL] update res_dev_ui set area_x=0.287, area_y=0.262651 where ui_dev_id=4
+2015-10-09 10:53:59:421 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:53:59:421 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:53:59:437 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:53:59:437 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=4
+2015-10-09 10:53:59:437 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:53:59:437 [DEBUG_LEVEL] update res_dev_ui set area_x=0.287, area_y=0.262651 where ui_dev_id=4
+2015-10-09 10:53:59:500 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:53:59:500 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:53:59:500 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:53:59:828 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"22.7","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"25.1","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:53:59:859 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:53:59:859 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:54:00:468 [DEBUG_LEVEL] pue_id:1, pue_value:0.36
+2015-10-09 10:54:00:515 [DEBUG_LEVEL] pue_id:1, pue_value:0.35
+2015-10-09 10:54:00:578 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"area_x":"0.274","area_y":"0.3963855421686747","ui_dev_id":"6"}
+2015-10-09 10:54:00:578 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"area_x":"0.274","area_y":"0.3963855421686747","ui_dev_id":"6"}
+2015-10-09 10:54:00:578 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=6
+2015-10-09 10:54:00:578 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:54:00:578 [DEBUG_LEVEL] update res_dev_ui set area_x=0.274, area_y=0.396386 where ui_dev_id=6
+2015-10-09 10:54:00:640 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:54:00:640 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:54:00:656 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:54:00:656 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=6
+2015-10-09 10:54:00:656 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:54:00:656 [DEBUG_LEVEL] update res_dev_ui set area_x=0.274, area_y=0.396386 where ui_dev_id=6
+2015-10-09 10:54:00:703 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:54:00:718 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:54:00:718 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:54:01:984 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"23.6","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.36"},{"ui_dev_prop":{"prop_value":"67","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.35"}]
+2015-10-09 10:54:01:062 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:54:01:062 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:54:01:093 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"area_x":"0.144","area_y":"0.5084337349397591","ui_dev_id":"2"}
+2015-10-09 10:54:01:093 [DEBUG_LEVEL] Call CWebServer func: ModUiDev, string:{"area_x":"0.144","area_y":"0.5084337349397591","ui_dev_id":"2"}
+2015-10-09 10:54:01:093 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=2
+2015-10-09 10:54:01:093 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:54:01:093 [DEBUG_LEVEL] update res_dev_ui set area_x=0.144, area_y=0.508434 where ui_dev_id=2
+2015-10-09 10:54:01:171 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:54:01:171 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:54:01:187 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:54:01:187 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=2
+2015-10-09 10:54:01:187 [DEBUG_LEVEL] CDB<ListT>::Update being called
+2015-10-09 10:54:01:187 [DEBUG_LEVEL] update res_dev_ui set area_x=0.144, area_y=0.508434 where ui_dev_id=2
+2015-10-09 10:54:02:265 [DEBUG_LEVEL] select * from view_dev_ui
+2015-10-09 10:54:02:265 [DEBUG_LEVEL] select * from res_dev_ui_prop
+2015-10-09 10:54:02:281 [DEBUG_LEVEL] CWebServer func: ModUiDev, return:
+2015-10-09 10:54:03:781 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"223.5","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.009","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"-121","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"130","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:54:03:796 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:54:03:796 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:54:05:500 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"221.9","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.093","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"-113","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"150","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:54:05:500 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:54:05:500 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:54:06:000 [DEBUG_LEVEL] Call CWebServer func: GetAreaList, string:{"type":"1"}
+2015-10-09 10:54:06:000 [DEBUG_LEVEL] select * from res_area
+2015-10-09 10:54:06:000 [DEBUG_LEVEL] CWebServer func: GetAreaList, return:{"area_id":0,"area_name":"×ÜÇøÓò","area_x":0,"area_y":0,"child":null,"file_path":""}
+2015-10-09 10:54:06:000 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:54:06:000 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52947)
+2015-10-09 10:54:06:000 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:54:06:000 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:54:06:000 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:54:06:000 [DEBUG_LEVEL] Call CWebServer func: GetBoxList, string:
+2015-10-09 10:54:06:000 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:{"param_value":"¸£¿Ø¿Æ¼¼"}
+2015-10-09 10:54:06:000 [DEBUG_LEVEL] select * from res_box
+2015-10-09 10:54:06:000 [DEBUG_LEVEL] Call CWebServer func: SearchIntfList, string:
+2015-10-09 10:54:06:000 [DEBUG_LEVEL] CWebServer func: GetBoxList, return:[{"box_id":0}]
+2015-10-09 10:54:06:000 [DEBUG_LEVEL] Call CWebServer func: GetDevTypeList, string:
+2015-10-09 10:54:06:046 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"23.8","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"27.8","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:54:06:046 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"23.8","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"27.8","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:54:06:093 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52947)
+2015-10-09 10:54:06:093 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52947)
+2015-10-09 10:54:06:125 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52913)
+2015-10-09 10:54:08:359 [DEBUG_LEVEL] select * from res_intf
+2015-10-09 10:54:08:359 [DEBUG_LEVEL] CWebServer func: SearchIntfList, return:
+2015-10-09 10:54:08:359 [DEBUG_LEVEL] CWebServer func: GetDevTypeList, return:[{"dev_type":28,"dev_type_name":"CDMA"},{"dev_type":29,"dev_type_name":"AIÊäÈë"},{"dev_type":30,"dev_type_name":"DIÊäÈë"},{"dev_type":31,"dev_type_name":"DOÊä³ö"},{"dev_type":32,"dev_type_name":"ÎÂÊª¶È"},{"dev_type":33,"dev_type_name":"¿Õµ÷¿ØÖÆÆ÷"},{"dev_type":34,"dev_type_name":"UPS"},{"dev_type":35,"dev_type_name":"µçÁ¿ÒÇ"},{"dev_type":36,"dev_type_name":"µç³Ø¼ì²âÒÇ"},{"dev_type":37,"dev_type_name":"¾«ÃÜ¿Õµ÷"},{"dev_type":38,"dev_type_name":"24Â·DI"},{"dev_type":39,"dev_type_name":"´«¸ÐÆ÷"},{"dev_type":40,"dev_type_name":"²É¼¯Ä£¿é"},{"dev_type":41,"dev_type_name":"ÆÕÍ¨¿Õµ÷"},{"dev_type":256,"dev_type_name":"¶ÌÐÅ¸æ¾¯ÖÐÐÄ"},{"dev_type":257,"dev_type_name":"Ping¼ì²â"}]
+2015-10-09 10:54:08:359 [DEBUG_LEVEL] pue_id:1, pue_value:0.34
+2015-10-09 10:54:08:390 [DEBUG_LEVEL] Call CWebServer func: GetIntfList, string:
+2015-10-09 10:54:08:390 [DEBUG_LEVEL] select * from res_intf
+2015-10-09 10:54:08:390 [DEBUG_LEVEL] select * from res_box
+2015-10-09 10:54:08:390 [DEBUG_LEVEL] CWebServer func: GetIntfList, return:[{"box_id":0,"box_port":0,"intf_addr":0,"intf_id":1,"intf_sn":0,"intf_type":1,"intf_type_name":"ÄÚÖÃIPÄ£¿é","online_sts":1,"remark":0},{"box_id":-1,"box_port":-1,"intf_addr":1,"intf_id":2,"intf_sn":1,"intf_type":2,"intf_type_name":"¼ÌµçÆ÷Êä³öDO","online_sts":1,"remark":0},{"box_id":0,"box_port":1,"intf_addr":3,"intf_id":3,"intf_sn":3,"intf_type":3,"intf_type_name":"RS232/RS485½Ó¿Ú","online_sts":1,"remark":0},{"box_id":-1,"box_port":-1,"intf_addr":6,"intf_id":4,"intf_sn":6,"intf_type":4,"intf_type_name":"CDMAÄ£¿é","online_sts":1,"remark":0},{"box_id":0,"box_port":4,"intf_addr":7,"intf_id":5,"intf_sn":7,"intf_type":65520,"intf_type_name":"AI/DIÄ£¿é","online_sts":1,"remark":0},{"box_id":0,"box_port":2,"intf_addr":2,"intf_id":6,"intf_sn":2,"intf_type":2,"intf_type_name":"¼ÌµçÆ÷Êä³öDO","online_sts":1,"remark":0},{"box_id":0,"box_port":3,"intf_addr":4,"intf_id":7,"intf_sn":4,"intf_type":3,"intf_type_name":"RS232/RS485½Ó¿Ú","online_sts":1,"remark":0},{"box_id":-1,"box_port":-1,"intf_addr":5,"intf_id":8,"intf_sn":5,"intf_type":65520,"intf_type_name":"AI/DIÄ£¿é","online_sts":1,"remark":0}]
+2015-10-09 10:54:08:406 [DEBUG_LEVEL] pue_id:1, pue_value:0.33
+2015-10-09 10:54:08:562 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"22.6","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.34"}]
+2015-10-09 10:54:08:625 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52947)
+2015-10-09 10:54:08:625 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52947)
+2015-10-09 10:54:10:390 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:54:10:390 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:54:10:390 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:54:10:390 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:10:390 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:54:10:390 [DEBUG_LEVEL] Call CWebServer func: GetPUEList, string:{"type":"1"}
+2015-10-09 10:54:10:390 [DEBUG_LEVEL] Call CWebServer func: GetPUEList, string:
+2015-10-09 10:54:10:390 [DEBUG_LEVEL] Call CWebServer func: GetUiDevList, string:
+2015-10-09 10:54:10:406 [DEBUG_LEVEL] Call CWebServer func: GetPUEList, string:
+2015-10-09 10:54:10:406 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:{"param_value":"¸£¿Ø¿Æ¼¼"}
+2015-10-09 10:54:10:406 [DEBUG_LEVEL] select * from res_pue
+2015-10-09 10:54:10:406 [DEBUG_LEVEL] CWebServer func: GetPUEList, return:[{"pue_id":1,"pue_name":"qe","show_level":0}]
+2015-10-09 10:54:10:406 [DEBUG_LEVEL] select * from res_pue
+2015-10-09 10:54:10:406 [DEBUG_LEVEL] CWebServer func: GetPUEList, return:[{"pue_id":1,"pue_name":"qe","show_level":0}]
+2015-10-09 10:54:10:406 [DEBUG_LEVEL] CWebServer func: GetUiDevList, return:[{"area_id":0,"area_x":0.539,"area_y":0.463855,"dev_id":34,"dev_type":41,"file_path":"images/upload_bg/ui_dev_type4100.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":0,"ui_dev_id":1,"ui_dev_name":"´ó½ð¿Õµ÷","ui_dev_type":4100,"ui_dev_type_name":"ÆÕÍ¨¿Õµ÷"},{"area_id":0,"area_x":0.144,"area_y":0.508434,"dev_id":18,"dev_type":31,"file_path":"images/upload_bg/ui_dev_type3101.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":3,"ui_dev_id":2,"ui_dev_name":"DO1","ui_dev_type":3101,"ui_dev_type_name":"µÆ"},{"area_id":0,"area_x":0.129,"area_y":0.373494,"dev_id":35,"dev_type":34,"file_path":"images/upload_bg/ui_dev_type3400.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":0,"ui_dev_id":3,"ui_dev_name":"ups","ui_dev_type":3400,"ui_dev_type_name":"UPS"},{"area_id":0,"area_x":0.287,"area_y":0.262651,"dev_id":36,"dev_type":33,"file_path":"images/upload_bg/ui_dev_type3300.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":3,"ui_dev_id":4,"ui_dev_name":"¿Õµ÷¿ØÖÆ","ui_dev_type":3300,"ui_dev_type_name":"¿Õµ÷¿ØÖÆÆ÷"},{"area_id":0,"area_x":0.195,"area_y":0.220482,"dev_id":37,"dev_type":32,"file_path":"images/upload_bg/ui_dev_type3200.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":1,"ui_dev_id":5,"ui_dev_name":"ÎÂÊª¶È","ui_dev_type":3200,"ui_dev_type_name":"ÎÂÊª¶È"},{"area_id":0,"area_x":0.274,"area_y":0.396386,"dev_id":38,"dev_type":34,"file_path":"images/upload_bg/ui_dev_type3400.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":0,"ui_dev_id":6,"ui_dev_name":"ups","ui_dev_type":3400,"ui_dev_type_name":"UPS"}]
+2015-10-09 10:54:10:406 [DEBUG_LEVEL] select * from res_pue
+2015-10-09 10:54:10:406 [DEBUG_LEVEL] CWebServer func: GetPUEList, return:[{"pue_id":1,"pue_name":"qe","show_level":0}]
+2015-10-09 10:54:10:421 [DEBUG_LEVEL] Call CWebServer func: GetPUEValue, string:{"pue_id":"1"}
+2015-10-09 10:54:10:421 [DEBUG_LEVEL] select * from res_pue_his where pue_id=1 order by rec_time desc limit 1
+2015-10-09 10:54:10:421 [DEBUG_LEVEL] Call CWebServer func: GetHisPUE, string:{"begin_time":"2015-10-08 10:54","end_time":"2015-10-09 10:54","page_index":"0","page_size":"30","pue_id":"1"}
+2015-10-09 10:54:10:421 [DEBUG_LEVEL] CWebServer func: GetPUEValue, return:{"pue_value":"0.35"}
+2015-10-09 10:54:10:421 [DEBUG_LEVEL] select * from res_pue_his where  pue_id=1 and rec_time >='2015-10-08 10:00:00' and rec_time <='2015-10-09 10:00:00' order by rec_id limit 30 offset 0
+2015-10-09 10:54:10:421 [DEBUG_LEVEL] CWebServer func: GetHisPUE, return:
+2015-10-09 10:54:10:421 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"1"}
+2015-10-09 10:54:10:421 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"2"}
+2015-10-09 10:54:10:421 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"3"}
+2015-10-09 10:54:10:421 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"4"}
+2015-10-09 10:54:10:421 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"5"}
+2015-10-09 10:54:10:421 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"¹Ø","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":2,"ui_flag":1,"ui_prop_id":0,"ui_prop_name":"¿ª¹Ø","ui_scale":0,"units":"0:¹Ø|1:¿ª"}]
+2015-10-09 10:54:10:437 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"¿ª","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":1,"ui_flag":1,"ui_prop_id":0,"ui_prop_name":"¿ª¹Ø","ui_scale":0,"units":"0:¹Ø|1:¿ª"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":11,"ui_prop_id":1,"ui_prop_name":"ÔËÐÐÄ£Ê½","ui_scale":0,"units":"0:ËÍ·ç|1:ÖÆÈÈ|2:ÖÆÀä|3:×Ô¶¯|7:³ýÊª"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"Éè¶¨ÎÂ¶È","ui_scale":0,"units":""},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"1","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":11,"ui_prop_id":3,"ui_prop_name":"·çÁ¿","ui_scale":0,"units":"1:µÍ·ç|5:Ç¿·ç"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"23.8","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":1,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"ÊÒÄÚÎÂ¶È","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"27.8","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"ÊÒÍâÎÂ¶È","ui_scale":0,"units":"¡æ"}]
+2015-10-09 10:54:10:437 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":0,"ui_prop_name":"×Ô¶¯Ä£Ê½","ui_scale":0,"units":""},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":1,"ui_prop_name":"ÖÆÀäÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":2,"ui_prop_name":"ÖÆÈÈÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":3,"ui_prop_name":"³ýÊªÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":4,"ui_prop_name":"ËÍ·çÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":5,"ui_prop_name":"¹Ø»ú","ui_scale":0,"units":""}]
+2015-10-09 10:54:10:437 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"222.5","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"AÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"BÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"CÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"1.099","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":3,"ui_prop_name":"AÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"BÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"CÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"3.4","send_interval"
+2015-10-09 10:54:10:437 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"22.6","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":5,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"ÎÂ¶È","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"68.1","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":5,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"Êª¶È","ui_scale":0,"units":"%HR"}]
+2015-10-09 10:54:10:437 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"6"}
+2015-10-09 10:54:10:437 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"221.9","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"AÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"BÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"CÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"1.093","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":3,"ui_prop_name":"AÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"BÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"CÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"3.4","send_interval"
+2015-10-09 10:54:10:000 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"68.1","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.33"},{"ui_dev_prop":{"prop_value":"222.5","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.099","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"-128","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"100","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:54:10:000 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"68.1","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.33"},{"ui_dev_prop":{"prop_value":"222.5","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.099","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"-128","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"100","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:54:10:046 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52947)
+2015-10-09 10:54:10:093 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:10:093 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:12:718 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"224.4","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.068","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"113","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"160","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:54:12:812 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:12:812 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:13:531 [DEBUG_LEVEL] Call CWebServer func: GetPUEValue, string:{"pue_id":"1"}
+2015-10-09 10:54:13:531 [DEBUG_LEVEL] Call CWebServer func: GetPUEDtl, string:{"pue_id":"1"}
+2015-10-09 10:54:13:531 [DEBUG_LEVEL] select * from res_pue_his where pue_id=1 order by rec_time desc limit 1
+2015-10-09 10:54:13:531 [DEBUG_LEVEL] CWebServer func: GetPUEValue, return:{"pue_value":"0.35"}
+2015-10-09 10:54:13:531 [DEBUG_LEVEL] select * from view_pue_dtl where pue_id=1
+2015-10-09 10:54:13:531 [DEBUG_LEVEL] CWebServer func: GetPUEDtl, return:[{"nd_type":0,"pue_id":1,"pue_name":"qe","ui_dev_id":5,"ui_dev_name":"ÎÂÊª¶È","ui_prop_id":0,"ui_prop_name":"ÎÂ¶È"},{"nd_type":1,"pue_id":1,"pue_name":"qe","ui_dev_id":5,"ui_dev_name":"ÎÂÊª¶È","ui_prop_id":1,"ui_prop_name":"Êª¶È"}]
+2015-10-09 10:54:13:593 [DEBUG_LEVEL] Call CWebServer func: ReadUiDevProp, string:{"ui_dev_id":"5","ui_prop_id":"0"}
+2015-10-09 10:54:13:593 [DEBUG_LEVEL] Call CWebServer func: ReadUiDevProp, string:{"ui_dev_id":"5","ui_prop_id":"1"}
+2015-10-09 10:54:13:593 [DEBUG_LEVEL] CWebServer func: ReadUiDevProp, return:{"prop_value":"22.6"}
+2015-10-09 10:54:13:593 [DEBUG_LEVEL] CWebServer func: ReadUiDevProp, return:{"prop_value":"68.1"}
+2015-10-09 10:54:14:265 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"20.8","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"25.7","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:54:14:328 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:14:328 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:14:921 [DEBUG_LEVEL] pue_id:1, pue_value:0.36
+2015-10-09 10:54:14:968 [DEBUG_LEVEL] pue_id:1, pue_value:0.38
+2015-10-09 10:54:16:421 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"24.7","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.36"},{"ui_dev_prop":{"prop_value":"65.1","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.38"}]
+2015-10-09 10:54:16:453 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:16:453 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:17:187 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"221.5","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.09","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"122","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"170","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:54:18:265 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:18:265 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:19:937 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"223.4","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.059","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"107","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"130","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:54:19:984 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:19:984 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:21:484 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"21.9","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"28.4","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:54:21:484 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:21:484 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:21:140 [DEBUG_LEVEL] pue_id:1, pue_value:0.36
+2015-10-09 10:54:21:171 [DEBUG_LEVEL] pue_id:1, pue_value:0.36
+2015-10-09 10:54:23:640 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"23.7","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.36"},{"ui_dev_prop":{"prop_value":"66.2","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.36"}]
+2015-10-09 10:54:23:703 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:23:703 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:23:968 [DEBUG_LEVEL] Call CWebServer func: GetPUEList, string:
+2015-10-09 10:54:23:968 [DEBUG_LEVEL] select * from res_pue
+2015-10-09 10:54:23:968 [DEBUG_LEVEL] CWebServer func: GetPUEList, return:[{"pue_id":1,"pue_name":"qe","show_level":0}]
+2015-10-09 10:54:23:968 [DEBUG_LEVEL] Call CWebServer func: GetHisPUE, string:{"begin_time":"2015-10-08 10:54","end_time":"2015-10-09 10:54","page_index":"0","page_size":"30","pue_id":"1"}
+2015-10-09 10:54:23:984 [DEBUG_LEVEL] select * from res_pue_his where  pue_id=1 and rec_time >='2015-10-08 10:00:00' and rec_time <='2015-10-09 10:00:00' order by rec_id limit 30 offset 0
+2015-10-09 10:54:23:984 [DEBUG_LEVEL] CWebServer func: GetHisPUE, return:
+2015-10-09 10:54:25:390 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"225.6","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.08","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"116","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"160","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:54:25:406 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:25:421 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:26:140 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"222.5","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.049","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"100","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"100","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:54:27:234 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:27:234 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:28:703 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"21.3","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"27.5","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:54:28:734 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:28:734 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:29:343 [DEBUG_LEVEL] pue_id:1, pue_value:0.34
+2015-10-09 10:54:29:390 [DEBUG_LEVEL] pue_id:1, pue_value:0.34
+2015-10-09 10:54:30:859 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"22.2","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.34"},{"ui_dev_prop":{"prop_value":"65.6","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.34"}]
+2015-10-09 10:54:30:953 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:30:953 [DEBUG_LEVEL] Call CWebServer func: GetHisPUE, string:{"begin_time":"2015-10-08 10:54","end_time":"2015-10-09 10:54","page_index":"0","page_size":"250","pue_id":"1"}
+2015-10-09 10:54:30:953 [DEBUG_LEVEL] select * from res_pue_his where  pue_id=1 and rec_time >='2015-10-08 10:00:00' and rec_time <='2015-10-09 10:00:00' order by rec_id limit 250 offset 0
+2015-10-09 10:54:30:953 [DEBUG_LEVEL] CWebServer func: GetHisPUE, return:
+2015-10-09 10:54:30:953 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:31:171 [DEBUG_LEVEL] Call CWebServer func: GetHisPUE, string:{"begin_time":"2015-10-08 10:54","end_time":"2015-10-09 10:54","page_index":"0","page_size":"250","pue_id":"1"}
+2015-10-09 10:54:31:171 [DEBUG_LEVEL] select * from res_pue_his where  pue_id=1 and rec_time >='2015-10-08 10:00:00' and rec_time <='2015-10-09 10:00:00' order by rec_id limit 250 offset 0
+2015-10-09 10:54:31:171 [DEBUG_LEVEL] CWebServer func: GetHisPUE, return:
+2015-10-09 10:54:32:609 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"224.6","ui_dev_id":3,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.071","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"109","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"130","ui_dev_id":3,"ui_prop_id":12}}]
+2015-10-09 10:54:32:656 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:32:671 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:33:562 [DEBUG_LEVEL] Call CWebServer func: GetAreaList, string:{"type":"1"}
+2015-10-09 10:54:33:562 [DEBUG_LEVEL] select * from res_area
+2015-10-09 10:54:33:562 [DEBUG_LEVEL] CWebServer func: GetAreaList, return:{"area_id":0,"area_name":"×ÜÇøÓò","area_x":0,"area_y":0,"child":null,"file_path":""}
+2015-10-09 10:54:33:562 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:54:33:562 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:54:33:578 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52977)
+2015-10-09 10:54:33:875 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:54:33:875 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:54:33:875 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:{"param_value":"¸£¿Ø¿Æ¼¼"}
+2015-10-09 10:54:33:875 [DEBUG_LEVEL] Call CWebServer func: SearchIntfList, string:
+2015-10-09 10:54:33:875 [DEBUG_LEVEL] Call CWebServer func: GetBoxList, string:
+2015-10-09 10:54:33:890 [DEBUG_LEVEL] Call CWebServer func: GetDevTypeList, string:
+2015-10-09 10:54:34:359 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"221.5","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.039","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"94","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"90","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:54:34:375 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"221.5","ui_dev_id":6,"ui_prop_id":0}},{"ui_dev_prop":{"prop_value":"1.039","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"94","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"90","ui_dev_id":6,"ui_prop_id":12}}]
+2015-10-09 10:54:34:375 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52977)
+2015-10-09 10:54:34:390 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52961)
+2015-10-09 10:54:34:500 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:54:34:531 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52989)
+2015-10-09 10:54:34:531 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:54:34:843 [DEBUG_LEVEL] Call CWebServer func: CalEc, string:{"begin_time":"2015-10-08 10:54","end_time":"2015-10-09 10:54","unit_price":"1"}
+2015-10-09 10:54:34:843 [DEBUG_LEVEL] Call CWebServer func: GetUiDevList, string:
+2015-10-09 10:54:35:250 [DEBUG_LEVEL] select * from res_intf
+2015-10-09 10:54:35:250 [DEBUG_LEVEL] select * from res_box
+2015-10-09 10:54:35:250 [DEBUG_LEVEL] CWebServer func: SearchIntfList, return:
+2015-10-09 10:54:35:250 [DEBUG_LEVEL] CWebServer func: GetBoxList, return:[{"box_id":0}]
+2015-10-09 10:54:35:250 [DEBUG_LEVEL] CWebServer func: GetDevTypeList, return:[{"dev_type":28,"dev_type_name":"CDMA"},{"dev_type":29,"dev_type_name":"AIÊäÈë"},{"dev_type":30,"dev_type_name":"DIÊäÈë"},{"dev_type":31,"dev_type_name":"DOÊä³ö"},{"dev_type":32,"dev_type_name":"ÎÂÊª¶È"},{"dev_type":33,"dev_type_name":"¿Õµ÷¿ØÖÆÆ÷"},{"dev_type":34,"dev_type_name":"UPS"},{"dev_type":35,"dev_type_name":"µçÁ¿ÒÇ"},{"dev_type":36,"dev_type_name":"µç³Ø¼ì²âÒÇ"},{"dev_type":37,"dev_type_name":"¾«ÃÜ¿Õµ÷"},{"dev_type":38,"dev_type_name":"24Â·DI"},{"dev_type":39,"dev_type_name":"´«¸ÐÆ÷"},{"dev_type":40,"dev_type_name":"²É¼¯Ä£¿é"},{"dev_type":41,"dev_type_name":"ÆÕÍ¨¿Õµ÷"},{"dev_type":256,"dev_type_name":"¶ÌÐÅ¸æ¾¯ÖÐÐÄ"},{"dev_type":257,"dev_type_name":"Ping¼ì²â"}]
+2015-10-09 10:54:35:250 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:54:35:265 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:54:35:265 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:{"param_value":"¸£¿Ø¿Æ¼¼"}
+2015-10-09 10:54:35:265 [DEBUG_LEVEL] select * from view_ec_prop
+2015-10-09 10:54:35:281 [DEBUG_LEVEL] CWebServer func: CalEc, return:{"ec_item":null,"total_ec":"0.00","total_price":"0.00"}
+2015-10-09 10:54:35:281 [DEBUG_LEVEL] CWebServer func: GetUiDevList, return:[{"area_id":0,"area_x":0.539,"area_y":0.463855,"dev_id":34,"dev_type":41,"file_path":"images/upload_bg/ui_dev_type4100.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":0,"ui_dev_id":1,"ui_dev_name":"´ó½ð¿Õµ÷","ui_dev_type":4100,"ui_dev_type_name":"ÆÕÍ¨¿Õµ÷"},{"area_id":0,"area_x":0.144,"area_y":0.508434,"dev_id":18,"dev_type":31,"file_path":"images/upload_bg/ui_dev_type3101.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":3,"ui_dev_id":2,"ui_dev_name":"DO1","ui_dev_type":3101,"ui_dev_type_name":"µÆ"},{"area_id":0,"area_x":0.129,"area_y":0.373494,"dev_id":35,"dev_type":34,"file_path":"images/upload_bg/ui_dev_type3400.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":0,"ui_dev_id":3,"ui_dev_name":"ups","ui_dev_type":3400,"ui_dev_type_name":"UPS"},{"area_id":0,"area_x":0.287,"area_y":0.262651,"dev_id":36,"dev_type":33,"file_path":"images/upload_bg/ui_dev_type3300.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":3,"ui_dev_id":4,"ui_dev_name":"¿Õµ÷¿ØÖÆ","ui_dev_type":3300,"ui_dev_type_name":"¿Õµ÷¿ØÖÆÆ÷"},{"area_id":0,"area_x":0.195,"area_y":0.220482,"dev_id":37,"dev_type":32,"file_path":"images/upload_bg/ui_dev_type3200.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":1,"ui_dev_id":5,"ui_dev_name":"ÎÂÊª¶È","ui_dev_type":3200,"ui_dev_type_name":"ÎÂÊª¶È"},{"area_id":0,"area_x":0.274,"area_y":0.396386,"dev_id":38,"dev_type":34,"file_path":"images/upload_bg/ui_dev_type3400.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":0,"ui_dev_id":6,"ui_dev_name":"ups","ui_dev_type":3400,"ui_dev_type_name":"UPS"}]
+2015-10-09 10:54:35:296 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"1"}
+2015-10-09 10:54:35:296 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"2"}
+2015-10-09 10:54:35:296 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"¿ª","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":1,"ui_flag":1,"ui_prop_id":0,"ui_prop_name":"¿ª¹Ø","ui_scale":0,"units":"0:¹Ø|1:¿ª"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":11,"ui_prop_id":1,"ui_prop_name":"ÔËÐÐÄ£Ê½","ui_scale":0,"units":"0:ËÍ·ç|1:ÖÆÈÈ|2:ÖÆÀä|3:×Ô¶¯|7:³ýÊª"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"Éè¶¨ÎÂ¶È","ui_scale":0,"units":""},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"1","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":11,"ui_prop_id":3,"ui_prop_name":"·çÁ¿","ui_scale":0,"units":"1:µÍ·ç|5:Ç¿·ç"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"22.4","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":1,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"ÊÒÄÚÎÂ¶È","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"27.5","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"ÊÒÍâÎÂ¶È","ui_scale":0,"units":"¡æ"}]
+2015-10-09 10:54:35:296 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"¹Ø","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":2,"ui_flag":1,"ui_prop_id":0,"ui_prop_name":"¿ª¹Ø","ui_scale":0,"units":"0:¹Ø|1:¿ª"}]
+2015-10-09 10:54:35:296 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"3"}
+2015-10-09 10:54:35:296 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"4"}
+2015-10-09 10:54:35:296 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"5"}
+2015-10-09 10:54:35:296 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"224.6","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"AÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"BÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"CÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"1.071","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":3,"ui_prop_name":"AÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"BÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"CÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"3.4","send_interval"
+2015-10-09 10:54:35:296 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"6"}
+2015-10-09 10:54:35:296 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":0,"ui_prop_name":"×Ô¶¯Ä£Ê½","ui_scale":0,"units":""},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":1,"ui_prop_name":"ÖÆÀäÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":2,"ui_prop_name":"ÖÆÈÈÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":3,"ui_prop_name":"³ýÊªÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":4,"ui_prop_name":"ËÍ·çÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":5,"ui_prop_name":"¹Ø»ú","ui_scale":0,"units":""}]
+2015-10-09 10:54:35:296 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"22.2","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":5,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"ÎÂ¶È","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"65.6","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":5,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"Êª¶È","ui_scale":0,"units":"%HR"}]
+2015-10-09 10:54:35:296 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"221.5","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"AÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"BÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"CÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"1.039","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":3,"ui_prop_name":"AÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"BÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"CÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"3.4","send_interval"
+2015-10-09 10:54:36:562 [DEBUG_LEVEL] pue_id:1, pue_value:0.37
+2015-10-09 10:54:36:593 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"22.4","ui_dev_id":1,"ui_prop_id":4}},{"ui_dev_prop":{"prop_value":"26.2","ui_dev_id":1,"ui_prop_id":5}}]
+2015-10-09 10:54:36:609 [DEBUG_LEVEL] pue_id:1, pue_value:0.36
+2015-10-09 10:54:36:609 [DEBUG_LEVEL] Call CWebServer func: CalEc, string:{"begin_time":"2015-10-08 10:54","end_time":"2015-10-09 10:54","unit_price":"1"}
+2015-10-09 10:54:36:609 [DEBUG_LEVEL] select * from view_ec_prop
+2015-10-09 10:54:36:609 [DEBUG_LEVEL] CWebServer func: CalEc, return:{"ec_item":null,"total_ec":"0.00","total_price":"0.00"}
+2015-10-09 10:54:36:656 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52989)
+2015-10-09 10:54:36:656 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52989)
+2015-10-09 10:54:38:421 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"24.2","ui_dev_id":5,"ui_prop_id":0}},{"pue_id":1,"pue_value":"0.37"},{"ui_dev_prop":{"prop_value":"66.7","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.36"},{"ui_dev_prop":{"prop_value":"222.1","ui_dev_id":3,"ui_prop_id":0}}]
+2015-10-09 10:54:38:453 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52989)
+2015-10-09 10:54:38:453 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:52989)
+2015-10-09 10:54:39:250 [DEBUG_LEVEL] Call CWebServer func: GetUserList, string:
+2015-10-09 10:54:39:250 [DEBUG_LEVEL] select * from view_user
+2015-10-09 10:54:39:250 [DEBUG_LEVEL] CWebServer func: GetUserList, return:[{"create_time":"2014-02-12 06:29:08","last_time":"2015-10-09 10:52:52","remark":"","role_type":0,"role_type_name":"ÄÚÖÃ¹ÜÀíÔ±","user_id":1,"user_name":"admin"},{"create_time":"2014-02-12 06:29:08","last_time":"2014-02-12 06:29:08","remark":"","role_type":2,"role_type_name":"ÆÕÍ¨ÓÃ»§","user_id":2,"user_name":"user"}]
+2015-10-09 10:54:39:250 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"room_name"}
+2015-10-09 10:54:39:250 [DEBUG_LEVEL] select * from sys_param where param_key='room_name'
+2015-10-09 10:54:39:250 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:54:39:250 [DEBUG_LEVEL] Call CWebServer func: GetRoleList, string:
+2015-10-09 10:54:39:250 [DEBUG_LEVEL] select * from def_role
+2015-10-09 10:54:39:250 [DEBUG_LEVEL] CWebServer func: GetRoleList, return:[{"role_type":0,"role_type_name":"ÄÚÖÃ¹ÜÀíÔ±"},{"role_type":1,"role_type_name":"¹ÜÀíÔ±"},{"role_type":2,"role_type_name":"ÆÕÍ¨ÓÃ»§"}]
+2015-10-09 10:54:39:250 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:54:39:250 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:54:39:250 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53002)
+2015-10-09 10:54:39:265 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:54:39:265 [DEBUG_LEVEL] Call CWebServer func: GetAreaList, string:{"type":"1"}
+2015-10-09 10:54:39:265 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:54:39:265 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:{"param_value":"¸£¿Ø¿Æ¼¼"}
+2015-10-09 10:54:39:265 [DEBUG_LEVEL] select * from res_area
+2015-10-09 10:54:39:265 [DEBUG_LEVEL] CWebServer func: GetAreaList, return:{"area_id":0,"area_name":"×ÜÇøÓò","area_x":0,"area_y":0,"child":null,"file_path":""}
+2015-10-09 10:54:39:828 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:54:39:828 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:54:39:828 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53003)
+2015-10-09 10:54:39:828 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:54:39:828 [DEBUG_LEVEL] Call CWebServer func: GetAreaList, string:{"type":"1"}
+2015-10-09 10:54:39:828 [DEBUG_LEVEL] Call CWebServer func: GetIpInfo, string:
+2015-10-09 10:54:39:828 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"room_name"}
+2015-10-09 10:54:39:828 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:54:39:828 [DEBUG_LEVEL] CWebServer func: GetIpInfo, return:{"gateway":"10.10.6.254","ip":"10.10.6.57","mac":"B8:97:5A:B6:E8:66","mask":"255.255.255.0"}
+2015-10-09 10:54:39:828 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:{"param_value":"¸£¿Ø¿Æ¼¼"}
+2015-10-09 10:54:39:828 [DEBUG_LEVEL] select * from res_area
+2015-10-09 10:54:39:828 [DEBUG_LEVEL] CWebServer func: GetAreaList, return:{"area_id":0,"area_name":"×ÜÇøÓò","area_x":0,"area_y":0,"child":null,"file_path":""}
+2015-10-09 10:54:39:828 [DEBUG_LEVEL] select * from sys_param where param_key='room_name'
+2015-10-09 10:54:39:828 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:54:39:875 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:54:39:875 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:54:39:875 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:{"param_value":"¸£¿Ø¿Æ¼¼"}
+2015-10-09 10:54:39:906 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"system_name"}
+2015-10-09 10:54:39:906 [DEBUG_LEVEL] select * from sys_param where param_key='system_name'
+2015-10-09 10:54:39:906 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:54:39:906 [DEBUG_LEVEL] Call CWebServer func: GetVerInfo, string:
+2015-10-09 10:54:39:906 [DEBUG_LEVEL] CWebServer func: GetVerInfo, return:{"compile_time":"Feb 24 2014 17:34:53","room_type":1,"ver":"3.4.18.4"}
+2015-10-09 10:54:39:187 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"1.045","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"79","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"120","ui_dev_id":3,"ui_prop_id":12}},{"ui_dev_prop":{"prop_value":"225.5","ui_dev_id":6,"ui_prop_id":0}}]
+2015-10-09 10:54:39:187 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"1.045","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"79","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"120","ui_dev_id":3,"ui_prop_id":12}},{"ui_dev_prop":{"prop_value":"225.5","ui_dev_id":6,"ui_prop_id":0}}]
+2015-10-09 10:54:39:187 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"1.045","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"79","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"120","ui_dev_id":3,"ui_prop_id":12}},{"ui_dev_prop":{"prop_value":"225.5","ui_dev_id":6,"ui_prop_id":0}}]
+2015-10-09 10:54:40:234 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53003)
+2015-10-09 10:54:40:234 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53003)
+2015-10-09 10:54:40:281 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53002)
+2015-10-09 10:54:40:281 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:52989)
+2015-10-09 10:54:40:843 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:54:40:843 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:54:40:843 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53004)
+2015-10-09 10:54:40:843 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:54:40:843 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:54:40:843 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:{"param_value":"¸£¿Ø¿Æ¼¼"}
+2015-10-09 10:54:40:843 [DEBUG_LEVEL] Call CWebServer func: GetUiDevTypeList, string:
+2015-10-09 10:54:40:843 [DEBUG_LEVEL] CWebServer func: GetUiDevTypeList, return:[{"dev_type":28,"file_path":"images/upload_bg/ui_dev_type2800.png","system_class":3,"ui_dev_type":2800,"ui_dev_type_name":"CDMA"},{"dev_type":29,"file_path":"images/upload_bg/ui_dev_type2900.png","system_class":1,"ui_dev_type":2900,"ui_dev_type_name":"AIÊäÈë"},{"dev_type":30,"file_path":"images/upload_bg/ui_dev_type3000.png","system_class":1,"ui_dev_type":3000,"ui_dev_type_name":"DIÊäÈë"},{"dev_type":31,"file_path":"images/upload_bg/ui_dev_type3100.png","system_class":3,"ui_dev_type":3100,"ui_dev_type_name":"DOÊä³ö"},{"dev_type":31,"file_path":"images/upload_bg/ui_dev_type3101.png","system_class":3,"ui_dev_type":3101,"ui_dev_type_name":"µÆ"},{"dev_type":32,"file_path":"images/upload_bg/ui_dev_type3200.png","system_class":1,"ui_dev_type":3200,"ui_dev_type_name":"ÎÂÊª¶È"},{"dev_type":33,"file_path":"images/upload_bg/ui_dev_type3300.png","system_class":3,"ui_dev_type":3300,"ui_dev_type_name":"¿Õµ÷¿ØÖÆÆ÷"},{"dev_type":34,"file_path":"images/upload_bg/ui_dev_type3400.png","system_class":0,"ui_dev_type":3400,"ui_dev_type_name":"UPS"},{"dev_type":35,"file_path":"images/upload_bg/ui_dev_type3500.png","system_class":2,"ui_dev_type":3500,"ui_dev_type_name":"µçÁ¿ÒÇ"},{"dev_type":36,"file_path":"images/upload_bg/ui_dev_type3600.png","system_class":2,"ui_dev_type":3600,"ui_dev_type_name":"µç³Ø¼ì²âÒÇ"},{"dev_type":37,"file_path":"images/upload_bg/ui_dev_type3700.png","system_class":1,"ui_dev_type":3700,"ui_dev_type_name":"¾«ÃÜ¿Õµ÷"},{"dev_type":38,"file_path":"images/upload_bg/ui_dev_type3800.png","system_class":1,"ui_dev_type":3800,"ui_dev_type_name":"24Â·DI"},{"dev_type":39,"file_path":"images/upload_bg/ui_dev_type3900.png","system_class":1,"ui_dev_type":3900,"ui_dev_type_name":"´«¸ÐÆ÷"},{"dev_type":40,"file_path":"images/upload_bg/ui_dev_type4000.png","system_class":1,"ui_dev_type":4000,"ui_dev_type_name":"²É¼¯Ä£¿é"},{"dev_type":41,"file_path":"images/upload_bg/ui_dev_type4100.png","system_class":0,"ui_dev_type":4100,"ui_dev_type_name":"ÆÕÍ¨¿Õµ
+2015-10-09 10:54:40:859 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:54:40:859 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:54:40:859 [DEBUG_LEVEL] Call CWebServer func: GetUiDevList, string:
+2015-10-09 10:54:40:859 [DEBUG_LEVEL] CWebServer func: GetUiDevList, return:[{"area_id":0,"area_x":0.539,"area_y":0.463855,"dev_id":34,"dev_type":41,"file_path":"images/upload_bg/ui_dev_type4100.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":0,"ui_dev_id":1,"ui_dev_name":"´ó½ð¿Õµ÷","ui_dev_type":4100,"ui_dev_type_name":"ÆÕÍ¨¿Õµ÷"},{"area_id":0,"area_x":0.144,"area_y":0.508434,"dev_id":18,"dev_type":31,"file_path":"images/upload_bg/ui_dev_type3101.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":3,"ui_dev_id":2,"ui_dev_name":"DO1","ui_dev_type":3101,"ui_dev_type_name":"µÆ"},{"area_id":0,"area_x":0.129,"area_y":0.373494,"dev_id":35,"dev_type":34,"file_path":"images/upload_bg/ui_dev_type3400.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":0,"ui_dev_id":3,"ui_dev_name":"ups","ui_dev_type":3400,"ui_dev_type_name":"UPS"},{"area_id":0,"area_x":0.287,"area_y":0.262651,"dev_id":36,"dev_type":33,"file_path":"images/upload_bg/ui_dev_type3300.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":3,"ui_dev_id":4,"ui_dev_name":"¿Õµ÷¿ØÖÆ","ui_dev_type":3300,"ui_dev_type_name":"¿Õµ÷¿ØÖÆÆ÷"},{"area_id":0,"area_x":0.195,"area_y":0.220482,"dev_id":37,"dev_type":32,"file_path":"images/upload_bg/ui_dev_type3200.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":1,"ui_dev_id":5,"ui_dev_name":"ÎÂÊª¶È","ui_dev_type":3200,"ui_dev_type_name":"ÎÂÊª¶È"},{"area_id":0,"area_x":0.274,"area_y":0.396386,"dev_id":38,"dev_type":34,"file_path":"images/upload_bg/ui_dev_type3400.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":0,"ui_dev_id":6,"ui_dev_name":"ups","ui_dev_type":3400,"ui_dev_type_name":"UPS"}]
+2015-10-09 10:54:40:875 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"1"}
+2015-10-09 10:54:40:875 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"¿ª","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":1,"ui_flag":1,"ui_prop_id":0,"ui_prop_name":"¿ª¹Ø","ui_scale":0,"units":"0:¹Ø|1:¿ª"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":11,"ui_prop_id":1,"ui_prop_name":"ÔËÐÐÄ£Ê½","ui_scale":0,"units":"0:ËÍ·ç|1:ÖÆÈÈ|2:ÖÆÀä|3:×Ô¶¯|7:³ýÊª"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"Éè¶¨ÎÂ¶È","ui_scale":0,"units":""},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"1","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":11,"ui_prop_id":3,"ui_prop_name":"·çÁ¿","ui_scale":0,"units":"1:µÍ·ç|5:Ç¿·ç"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"22.4","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":1,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"ÊÒÄÚÎÂ¶È","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"26.2","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"ÊÒÍâÎÂ¶È","ui_scale":0,"units":"¡æ"}]
+2015-10-09 10:54:40:875 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"2"}
+2015-10-09 10:54:40:875 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"¹Ø","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":2,"ui_flag":1,"ui_prop_id":0,"ui_prop_name":"¿ª¹Ø","ui_scale":0,"units":"0:¹Ø|1:¿ª"}]
+2015-10-09 10:54:40:890 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"3"}
+2015-10-09 10:54:40:890 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"6"}
+2015-10-09 10:54:40:890 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"5"}
+2015-10-09 10:54:40:890 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"222.1","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"AÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"BÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"CÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"1.045","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":3,"ui_prop_name":"AÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"BÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"CÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"3.4","send_interval"
+2015-10-09 10:54:40:890 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"225.5","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"AÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"BÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"CÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"1.03","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":3,"ui_prop_name":"AÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"BÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"CÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"3.4","send_interval":
+2015-10-09 10:54:40:890 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"24.2","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":5,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"ÎÂ¶È","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"66.7","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":5,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"Êª¶È","ui_scale":0,"units":"%HR"}]
+2015-10-09 10:54:40:890 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"4"}
+2015-10-09 10:54:40:890 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":0,"ui_prop_name":"×Ô¶¯Ä£Ê½","ui_scale":0,"units":""},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":1,"ui_prop_name":"ÖÆÀäÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":2,"ui_prop_name":"ÖÆÈÈÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":3,"ui_prop_name":"³ýÊªÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":4,"ui_prop_name":"ËÍ·çÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":5,"ui_prop_name":"¹Ø»ú","ui_scale":0,"units":""}]
+2015-10-09 10:54:41:937 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"1.03","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"88","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"160","ui_dev_id":6,"ui_prop_id":12}},{"ui_dev_prop":{"prop_value":"23.4","ui_dev_id":1,"ui_prop_id":4}}]
+2015-10-09 10:54:41:937 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"1.03","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"88","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"160","ui_dev_id":6,"ui_prop_id":12}},{"ui_dev_prop":{"prop_value":"23.4","ui_dev_id":1,"ui_prop_id":4}}]
+2015-10-09 10:54:41:953 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53004)
+2015-10-09 10:54:41:953 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53004)
+2015-10-09 10:54:41:031 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53003)
+2015-10-09 10:54:41:125 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:54:41:125 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53005)
+2015-10-09 10:54:41:125 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:54:41:125 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:54:41:125 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"room_name"}
+2015-10-09 10:54:41:125 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:54:41:125 [DEBUG_LEVEL] Call CWebServer func: GetUiDevTypeList, string:
+2015-10-09 10:54:41:125 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:{"param_value":"¸£¿Ø¿Æ¼¼"}
+2015-10-09 10:54:41:125 [DEBUG_LEVEL] select * from sys_param where param_key='room_name'
+2015-10-09 10:54:41:125 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:
+2015-10-09 10:54:41:125 [DEBUG_LEVEL] CWebServer func: GetUiDevTypeList, return:[{"dev_type":28,"file_path":"images/upload_bg/ui_dev_type2800.png","system_class":3,"ui_dev_type":2800,"ui_dev_type_name":"CDMA"},{"dev_type":29,"file_path":"images/upload_bg/ui_dev_type2900.png","system_class":1,"ui_dev_type":2900,"ui_dev_type_name":"AIÊäÈë"},{"dev_type":30,"file_path":"images/upload_bg/ui_dev_type3000.png","system_class":1,"ui_dev_type":3000,"ui_dev_type_name":"DIÊäÈë"},{"dev_type":31,"file_path":"images/upload_bg/ui_dev_type3100.png","system_class":3,"ui_dev_type":3100,"ui_dev_type_name":"DOÊä³ö"},{"dev_type":31,"file_path":"images/upload_bg/ui_dev_type3101.png","system_class":3,"ui_dev_type":3101,"ui_dev_type_name":"µÆ"},{"dev_type":32,"file_path":"images/upload_bg/ui_dev_type3200.png","system_class":1,"ui_dev_type":3200,"ui_dev_type_name":"ÎÂÊª¶È"},{"dev_type":33,"file_path":"images/upload_bg/ui_dev_type3300.png","system_class":3,"ui_dev_type":3300,"ui_dev_type_name":"¿Õµ÷¿ØÖÆÆ÷"},{"dev_type":34,"file_path":"images/upload_bg/ui_dev_type3400.png","system_class":0,"ui_dev_type":3400,"ui_dev_type_name":"UPS"},{"dev_type":35,"file_path":"images/upload_bg/ui_dev_type3500.png","system_class":2,"ui_dev_type":3500,"ui_dev_type_name":"µçÁ¿ÒÇ"},{"dev_type":36,"file_path":"images/upload_bg/ui_dev_type3600.png","system_class":2,"ui_dev_type":3600,"ui_dev_type_name":"µç³Ø¼ì²âÒÇ"},{"dev_type":37,"file_path":"images/upload_bg/ui_dev_type3700.png","system_class":1,"ui_dev_type":3700,"ui_dev_type_name":"¾«ÃÜ¿Õµ÷"},{"dev_type":38,"file_path":"images/upload_bg/ui_dev_type3800.png","system_class":1,"ui_dev_type":3800,"ui_dev_type_name":"24Â·DI"},{"dev_type":39,"file_path":"images/upload_bg/ui_dev_type3900.png","system_class":1,"ui_dev_type":3900,"ui_dev_type_name":"´«¸ÐÆ÷"},{"dev_type":40,"file_path":"images/upload_bg/ui_dev_type4000.png","system_class":1,"ui_dev_type":4000,"ui_dev_type_name":"²É¼¯Ä£¿é"},{"dev_type":41,"file_path":"images/upload_bg/ui_dev_type4100.png","system_class":0,"ui_dev_type":4100,"ui_dev_type_name":"ÆÕÍ¨¿Õµ
+2015-10-09 10:54:42:203 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:54:42:203 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:54:43:781 [DEBUG_LEVEL] pue_id:1, pue_value:0.35
+2015-10-09 10:54:43:781 [DEBUG_LEVEL] select count(*) from res_pue_his
+2015-10-09 10:54:43:781 [DEBUG_LEVEL] CDB<ListT>::Insert being called
+2015-10-09 10:54:43:781 [DEBUG_LEVEL] insert into res_pue_his(pue_id, pue_value, rec_time) values (1, '0.35', '2015-10-09 10:54:43')
+2015-10-09 10:54:43:890 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"28.9","ui_dev_id":1,"ui_prop_id":5}},{"ui_dev_prop":{"prop_value":"23.3","ui_dev_id":5,"ui_prop_id":0}}]
+2015-10-09 10:54:43:890 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"28.9","ui_dev_id":1,"ui_prop_id":5}},{"ui_dev_prop":{"prop_value":"23.3","ui_dev_id":5,"ui_prop_id":0}}]
+2015-10-09 10:54:43:890 [DEBUG_LEVEL] pue_id:1, pue_value:0.34
+2015-10-09 10:54:43:937 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53005)
+2015-10-09 10:54:43:937 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53005)
+2015-10-09 10:54:43:953 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53004)
+2015-10-09 10:54:45:640 [ALL_LEVEL] Return Hook: [{"pue_id":1,"pue_value":"0.35"},{"ui_dev_prop":{"prop_value":"67.7","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.34"},{"ui_dev_prop":{"prop_value":"221.1","ui_dev_id":3,"ui_prop_id":0}}]
+2015-10-09 10:54:45:640 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53005)
+2015-10-09 10:54:45:640 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53005)
+2015-10-09 10:54:46:984 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:54:46:984 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:46:984 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:54:46:984 [DEBUG_LEVEL] Call CWebServer func: GetSysParam, string:{"param_key":"gs_name"}
+2015-10-09 10:54:46:000 [DEBUG_LEVEL] select * from sys_param where param_key='gs_name'
+2015-10-09 10:54:46:000 [DEBUG_LEVEL] CWebServer func: GetSysParam, return:{"param_value":"¸£¿Ø¿Æ¼¼"}
+2015-10-09 10:54:46:000 [DEBUG_LEVEL] Call CWebServer func: GetCurrentAlarm, string:
+2015-10-09 10:54:46:000 [DEBUG_LEVEL] CWebServer func: GetCurrentAlarm, return:
+2015-10-09 10:54:46:000 [DEBUG_LEVEL] Call CWebServer func: GetUiDevTypeList, string:
+2015-10-09 10:54:46:000 [DEBUG_LEVEL] Call CWebServer func: GetUiDevList, string:
+2015-10-09 10:54:46:000 [DEBUG_LEVEL] CWebServer func: GetUiDevTypeList, return:[{"dev_type":28,"file_path":"images/upload_bg/ui_dev_type2800.png","system_class":3,"ui_dev_type":2800,"ui_dev_type_name":"CDMA"},{"dev_type":29,"file_path":"images/upload_bg/ui_dev_type2900.png","system_class":1,"ui_dev_type":2900,"ui_dev_type_name":"AIÊäÈë"},{"dev_type":30,"file_path":"images/upload_bg/ui_dev_type3000.png","system_class":1,"ui_dev_type":3000,"ui_dev_type_name":"DIÊäÈë"},{"dev_type":31,"file_path":"images/upload_bg/ui_dev_type3100.png","system_class":3,"ui_dev_type":3100,"ui_dev_type_name":"DOÊä³ö"},{"dev_type":31,"file_path":"images/upload_bg/ui_dev_type3101.png","system_class":3,"ui_dev_type":3101,"ui_dev_type_name":"µÆ"},{"dev_type":32,"file_path":"images/upload_bg/ui_dev_type3200.png","system_class":1,"ui_dev_type":3200,"ui_dev_type_name":"ÎÂÊª¶È"},{"dev_type":33,"file_path":"images/upload_bg/ui_dev_type3300.png","system_class":3,"ui_dev_type":3300,"ui_dev_type_name":"¿Õµ÷¿ØÖÆÆ÷"},{"dev_type":34,"file_path":"images/upload_bg/ui_dev_type3400.png","system_class":0,"ui_dev_type":3400,"ui_dev_type_name":"UPS"},{"dev_type":35,"file_path":"images/upload_bg/ui_dev_type3500.png","system_class":2,"ui_dev_type":3500,"ui_dev_type_name":"µçÁ¿ÒÇ"},{"dev_type":36,"file_path":"images/upload_bg/ui_dev_type3600.png","system_class":2,"ui_dev_type":3600,"ui_dev_type_name":"µç³Ø¼ì²âÒÇ"},{"dev_type":37,"file_path":"images/upload_bg/ui_dev_type3700.png","system_class":1,"ui_dev_type":3700,"ui_dev_type_name":"¾«ÃÜ¿Õµ÷"},{"dev_type":38,"file_path":"images/upload_bg/ui_dev_type3800.png","system_class":1,"ui_dev_type":3800,"ui_dev_type_name":"24Â·DI"},{"dev_type":39,"file_path":"images/upload_bg/ui_dev_type3900.png","system_class":1,"ui_dev_type":3900,"ui_dev_type_name":"´«¸ÐÆ÷"},{"dev_type":40,"file_path":"images/upload_bg/ui_dev_type4000.png","system_class":1,"ui_dev_type":4000,"ui_dev_type_name":"²É¼¯Ä£¿é"},{"dev_type":41,"file_path":"images/upload_bg/ui_dev_type4100.png","system_class":0,"ui_dev_type":4100,"ui_dev_type_name":"ÆÕÍ¨¿Õµ
+2015-10-09 10:54:46:000 [DEBUG_LEVEL] CWebServer func: GetUiDevList, return:[{"area_id":0,"area_x":0.539,"area_y":0.463855,"dev_id":34,"dev_type":41,"file_path":"images/upload_bg/ui_dev_type4100.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":0,"ui_dev_id":1,"ui_dev_name":"´ó½ð¿Õµ÷","ui_dev_type":4100,"ui_dev_type_name":"ÆÕÍ¨¿Õµ÷"},{"area_id":0,"area_x":0.144,"area_y":0.508434,"dev_id":18,"dev_type":31,"file_path":"images/upload_bg/ui_dev_type3101.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":3,"ui_dev_id":2,"ui_dev_name":"DO1","ui_dev_type":3101,"ui_dev_type_name":"µÆ"},{"area_id":0,"area_x":0.129,"area_y":0.373494,"dev_id":35,"dev_type":34,"file_path":"images/upload_bg/ui_dev_type3400.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":0,"ui_dev_id":3,"ui_dev_name":"ups","ui_dev_type":3400,"ui_dev_type_name":"UPS"},{"area_id":0,"area_x":0.287,"area_y":0.262651,"dev_id":36,"dev_type":33,"file_path":"images/upload_bg/ui_dev_type3300.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":3,"ui_dev_id":4,"ui_dev_name":"¿Õµ÷¿ØÖÆ","ui_dev_type":3300,"ui_dev_type_name":"¿Õµ÷¿ØÖÆÆ÷"},{"area_id":0,"area_x":0.195,"area_y":0.220482,"dev_id":37,"dev_type":32,"file_path":"images/upload_bg/ui_dev_type3200.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":1,"ui_dev_id":5,"ui_dev_name":"ÎÂÊª¶È","ui_dev_type":3200,"ui_dev_type_name":"ÎÂÊª¶È"},{"area_id":0,"area_x":0.274,"area_y":0.396386,"dev_id":38,"dev_type":34,"file_path":"images/upload_bg/ui_dev_type3400.png","in_map":1,"offline_sms":0,"online_sts":1,"place_sts":1,"remark":"","system_class":0,"ui_dev_id":6,"ui_dev_name":"ups","ui_dev_type":3400,"ui_dev_type_name":"UPS"}]
+2015-10-09 10:54:46:015 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"1"}
+2015-10-09 10:54:46:015 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"¿ª","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":1,"ui_flag":1,"ui_prop_id":0,"ui_prop_name":"¿ª¹Ø","ui_scale":0,"units":"0:¹Ø|1:¿ª"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":11,"ui_prop_id":1,"ui_prop_name":"ÔËÐÐÄ£Ê½","ui_scale":0,"units":"0:ËÍ·ç|1:ÖÆÈÈ|2:ÖÆÀä|3:×Ô¶¯|7:³ýÊª"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"Éè¶¨ÎÂ¶È","ui_scale":0,"units":""},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"1","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":11,"ui_prop_id":3,"ui_prop_name":"·çÁ¿","ui_scale":0,"units":"1:µÍ·ç|5:Ç¿·ç"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"23.4","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":1,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"ÊÒÄÚÎÂ¶È","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"28.9","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":1,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"ÊÒÍâÎÂ¶È","ui_scale":0,"units":"¡æ"}]
+2015-10-09 10:54:46:031 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"2"}
+2015-10-09 10:54:46:031 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"rw","prop_value":"¹Ø","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":2,"ui_flag":1,"ui_prop_id":0,"ui_prop_name":"¿ª¹Ø","ui_scale":0,"units":"0:¹Ø|1:¿ª"}]
+2015-10-09 10:54:46:031 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"3"}
+2015-10-09 10:54:46:031 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"221.1","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"AÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"BÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"CÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"1.036","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":3,"ui_prop_name":"AÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"BÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"CÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"3.4","send_interval"
+2015-10-09 10:54:46:031 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"4"}
+2015-10-09 10:54:46:031 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":0,"ui_prop_name":"×Ô¶¯Ä£Ê½","ui_scale":0,"units":""},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":1,"ui_prop_name":"ÖÆÀäÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":2,"ui_prop_name":"ÖÆÈÈÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":3,"ui_prop_name":"³ýÊªÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":4,"ui_prop_name":"ËÍ·çÄ£Ê½","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"w","prop_value":"","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":4,"ui_flag":8,"ui_prop_id":5,"ui_prop_name":"¹Ø»ú","ui_scale":0,"units":""}]
+2015-10-09 10:54:46:031 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"5"}
+2015-10-09 10:54:46:031 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"23.3","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":5,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"ÎÂ¶È","ui_scale":0,"units":"¡æ"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"67.7","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":5,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"Êª¶È","ui_scale":0,"units":"%HR"}]
+2015-10-09 10:54:46:031 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"6"}
+2015-10-09 10:54:46:046 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"225.5","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"AÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"BÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"CÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"1.03","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":3,"ui_prop_name":"AÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"BÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"CÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"3.4","send_interval":
+2015-10-09 10:54:47:390 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"1.036","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"73","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"110","ui_dev_id":3,"ui_prop_id":12}},{"ui_dev_prop":{"prop_value":"223","ui_dev_id":6,"ui_prop_id":0}}]
+2015-10-09 10:54:47:390 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"1.036","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"73","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"110","ui_dev_id":3,"ui_prop_id":12}},{"ui_dev_prop":{"prop_value":"223","ui_dev_id":6,"ui_prop_id":0}}]
+2015-10-09 10:54:47:390 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:47:406 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:47:453 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53005)
+2015-10-09 10:54:48:140 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"1.004","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"58","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"150","ui_dev_id":6,"ui_prop_id":12}},{"ui_dev_prop":{"prop_value":"20.4","ui_dev_id":1,"ui_prop_id":4}}]
+2015-10-09 10:54:49:203 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:49:203 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:50:000 [DEBUG_LEVEL] pue_id:1, pue_value:0.34
+2015-10-09 10:54:50:046 [DEBUG_LEVEL] pue_id:1, pue_value:0.35
+2015-10-09 10:54:50:093 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"27.6","ui_dev_id":1,"ui_prop_id":5}},{"ui_dev_prop":{"prop_value":"23.1","ui_dev_id":5,"ui_prop_id":0}}]
+2015-10-09 10:54:50:109 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:50:109 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:52:859 [ALL_LEVEL] Return Hook: [{"pue_id":1,"pue_value":"0.34"},{"ui_dev_prop":{"prop_value":"65.5","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.35"},{"ui_dev_prop":{"prop_value":"222","ui_dev_id":3,"ui_prop_id":0}}]
+2015-10-09 10:54:52:921 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:52:921 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:54:609 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"1.094","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"67","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"90","ui_dev_id":3,"ui_prop_id":12}},{"ui_dev_prop":{"prop_value":"223.8","ui_dev_id":6,"ui_prop_id":0}}]
+2015-10-09 10:54:54:640 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:54:640 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:56:359 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"1.063","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"51","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"140","ui_dev_id":6,"ui_prop_id":12}},{"ui_dev_prop":{"prop_value":"20.7","ui_dev_id":1,"ui_prop_id":4}}]
+2015-10-09 10:54:56:453 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:56:453 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:58:218 [DEBUG_LEVEL] pue_id:1, pue_value:0.38
+2015-10-09 10:54:58:250 [DEBUG_LEVEL] pue_id:1, pue_value:0.38
+2015-10-09 10:54:58:312 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"26.7","ui_dev_id":1,"ui_prop_id":5}},{"ui_dev_prop":{"prop_value":"24.6","ui_dev_id":5,"ui_prop_id":0}}]
+2015-10-09 10:54:58:359 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:58:359 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:58:140 [DEBUG_LEVEL] Call CWebServer func: GetLinkList, string:{"ui_dev_id":"6"}
+2015-10-09 10:54:58:140 [DEBUG_LEVEL] select * from view_ui_link where ui_dev_id=6
+2015-10-09 10:54:58:140 [DEBUG_LEVEL] CWebServer func: GetLinkList, return:
+2015-10-09 10:54:58:140 [DEBUG_LEVEL] Call CWebServer func: GetPlace, string:{"ui_dev_id":"6"}
+2015-10-09 10:54:58:140 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=6
+2015-10-09 10:54:58:140 [DEBUG_LEVEL] CWebServer func: GetPlace, return:{"place_begin_time":"00:00:00","place_end_time":"00:00:00","place_type":0,"place_week_day":"","ui_dev_id":6}
+2015-10-09 10:54:58:140 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"6"}
+2015-10-09 10:54:58:140 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"223.8","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"AÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"BÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"CÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"1.063","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":3,"ui_prop_name":"AÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"BÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":6,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"CÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"3.4","send_interval"
+2015-10-09 10:54:58:140 [DEBUG_LEVEL] Call CWebServer func: GetDiTrans, string:{"ui_dev_id":"6"}
+2015-10-09 10:54:58:156 [DEBUG_LEVEL] select * from view_dev_ui where ui_dev_id=6
+2015-10-09 10:54:58:156 [DEBUG_LEVEL] CWebServer func: GetDiTrans, return:{"error_code":2,"error_msg":"Ó¦ÓÃÉè±¸ID:6²»ÊÇDIÀàÐÍµÄÉè±¸"}
+2015-10-09 10:54:58:156 [DEBUG_LEVEL] Call CWebServer func: GetHisData, string:{"begin_time":"2015-10-08 10:54","end_time":"2015-10-09 10:54","page_index":"0","page_size":"20","ui_dev_id":"6","ui_prop_id":"0"}
+2015-10-09 10:54:58:156 [DEBUG_LEVEL] select * from res_dev_his where  ui_dev_id=6 and ui_prop_id=0 and rec_time >='2015-10-08 10:00:00' and rec_time <='2015-10-09 10:00:00' order by rec_id limit 20 offset 0
+2015-10-09 10:54:58:171 [DEBUG_LEVEL] CWebServer func: GetHisData, return:
+2015-10-09 10:54:59:062 [ALL_LEVEL] Return Hook: [{"pue_id":1,"pue_value":"0.38"},{"ui_dev_prop":{"prop_value":"65","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.38"},{"ui_dev_prop":{"prop_value":"221","ui_dev_id":3,"ui_prop_id":0}}]
+2015-10-09 10:54:59:078 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:54:59:078 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:01:828 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"1.084","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"61","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"160","ui_dev_id":3,"ui_prop_id":12}},{"ui_dev_prop":{"prop_value":"222.9","ui_dev_id":6,"ui_prop_id":0}}]
+2015-10-09 10:55:01:890 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:01:890 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:03:578 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"1.053","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"-111","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"110","ui_dev_id":6,"ui_prop_id":12}},{"ui_dev_prop":{"prop_value":"21.7","ui_dev_id":1,"ui_prop_id":4}}]
+2015-10-09 10:55:03:593 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:03:593 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:05:421 [DEBUG_LEVEL] pue_id:1, pue_value:0.36
+2015-10-09 10:55:05:468 [DEBUG_LEVEL] pue_id:1, pue_value:0.36
+2015-10-09 10:55:05:531 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"25.4","ui_dev_id":1,"ui_prop_id":5}},{"ui_dev_prop":{"prop_value":"23.6","ui_dev_id":5,"ui_prop_id":0}}]
+2015-10-09 10:55:05:609 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:05:609 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:06:265 [DEBUG_LEVEL] Call CWebServer func: GetLinkList, string:{"ui_dev_id":"3"}
+2015-10-09 10:55:06:281 [DEBUG_LEVEL] Call CWebServer func: GetPlace, string:{"ui_dev_id":"3"}
+2015-10-09 10:55:06:281 [DEBUG_LEVEL] select * from view_ui_link where ui_dev_id=3
+2015-10-09 10:55:06:281 [DEBUG_LEVEL] Call CWebServer func: GetUiDevPropList, string:{"ui_dev_id":"3"}
+2015-10-09 10:55:06:281 [DEBUG_LEVEL] CWebServer func: GetLinkList, return:
+2015-10-09 10:55:06:281 [DEBUG_LEVEL] select * from res_dev_ui where ui_dev_id=3
+2015-10-09 10:55:06:281 [DEBUG_LEVEL] Call CWebServer func: GetDiTrans, string:{"ui_dev_id":"3"}
+2015-10-09 10:55:06:281 [DEBUG_LEVEL] CWebServer func: GetPlace, return:{"place_begin_time":"00:00:00","place_end_time":"00:00:00","place_type":0,"place_week_day":"","ui_dev_id":3}
+2015-10-09 10:55:06:296 [DEBUG_LEVEL] CWebServer func: GetUiDevPropList, return:[{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"221","send_interval":0,"send_times":0,"show_level":1,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":0,"ui_prop_name":"AÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":1,"ui_prop_name":"BÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":2,"ui_prop_name":"CÏàµçÑ¹","ui_scale":0,"units":"V"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"1.084","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":3,"ui_prop_name":"AÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":4,"ui_prop_name":"BÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"0","send_interval":0,"send_times":0,"show_level":0,"ui_base":0,"ui_dev_id":3,"ui_flag":0,"ui_prop_id":5,"ui_prop_name":"CÏàµçÁ÷","ui_scale":0,"units":"A"},{"acq_cycle":0,"alarm_cond":0,"alarm_info":"","alarm_value":"","custom_alarm_info":"","file_path":"","pre_time":0,"prop_type":"r","prop_value":"3.4","send_interval":0
+2015-10-09 10:55:06:296 [DEBUG_LEVEL] select * from view_dev_ui where ui_dev_id=3
+2015-10-09 10:55:06:296 [DEBUG_LEVEL] CWebServer func: GetDiTrans, return:{"error_code":2,"error_msg":"Ó¦ÓÃÉè±¸ID:3²»ÊÇDIÀàÐÍµÄÉè±¸"}
+2015-10-09 10:55:06:343 [DEBUG_LEVEL] Call CWebServer func: GetHisData, string:{"begin_time":"2015-10-08 10:55","end_time":"2015-10-09 10:55","page_index":"0","page_size":"20","ui_dev_id":"3","ui_prop_id":"0"}
+2015-10-09 10:55:06:343 [DEBUG_LEVEL] select * from res_dev_his where  ui_dev_id=3 and ui_prop_id=0 and rec_time >='2015-10-08 10:00:00' and rec_time <='2015-10-09 10:00:00' order by rec_id limit 20 offset 0
+2015-10-09 10:55:06:343 [DEBUG_LEVEL] CWebServer func: GetHisData, return:
+2015-10-09 10:55:07:281 [ALL_LEVEL] Return Hook: [{"pue_id":1,"pue_value":"0.36"},{"ui_dev_prop":{"prop_value":"66","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.36"},{"ui_dev_prop":{"prop_value":"225","ui_dev_id":3,"ui_prop_id":0}}]
+2015-10-09 10:55:07:328 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:07:328 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:08:046 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"1.075","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"54","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"150","ui_dev_id":3,"ui_prop_id":12}},{"ui_dev_prop":{"prop_value":"221.9","ui_dev_id":6,"ui_prop_id":0}}]
+2015-10-09 10:55:08:046 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:08:046 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:10:796 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"1.044","ui_dev_id":6,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"-117","ui_dev_id":6,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"90","ui_dev_id":6,"ui_prop_id":12}},{"ui_dev_prop":{"prop_value":"22.8","ui_dev_id":1,"ui_prop_id":4}}]
+2015-10-09 10:55:10:859 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:10:859 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:12:640 [DEBUG_LEVEL] pue_id:1, pue_value:0.34
+2015-10-09 10:55:12:687 [DEBUG_LEVEL] pue_id:1, pue_value:0.34
+2015-10-09 10:55:12:750 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"27.3","ui_dev_id":1,"ui_prop_id":5}},{"ui_dev_prop":{"prop_value":"22.7","ui_dev_id":5,"ui_prop_id":0}}]
+2015-10-09 10:55:12:765 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:12:765 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:14:500 [ALL_LEVEL] Return Hook: [{"pue_id":1,"pue_value":"0.34"},{"ui_dev_prop":{"prop_value":"67.1","ui_dev_id":5,"ui_prop_id":1}},{"pue_id":1,"pue_value":"0.34"},{"ui_dev_prop":{"prop_value":"222.5","ui_dev_id":3,"ui_prop_id":0}}]
+2015-10-09 10:55:14:578 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:14:578 [ALL_LEVEL] ÊÕµ½¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:16:250 [ALL_LEVEL] Return Hook: [{"ui_dev_prop":{"prop_value":"1.05","ui_dev_id":3,"ui_prop_id":3}},{"ui_dev_prop":{"prop_value":"124","ui_dev_id":3,"ui_prop_id":11}},{"ui_dev_prop":{"prop_value":"140","ui_dev_id":3,"ui_prop_id":12}},{"ui_dev_prop":{"prop_value":"221","ui_dev_id":6,"ui_prop_id":0}}]
+2015-10-09 10:55:16:296 [ALL_LEVEL] ¹Ø±Õ¹Ò¹³ (127.0.0.1:53020)
+2015-10-09 10:55:19:000 [DEBUG_LEVEL] pue_id:1, pue_value:0.37
+2015-10-09 10:55:19:046 [DEBUG_LEVEL] pue_id:1, pue_value:0.36

@@ -1,0 +1,147 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/main_in.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        var wwwzzjsnet = document.getElementById("wwwzzjsnet");
+        var www_zzjs_net_1 = document.getElementById("www_zzjs_net_1");
+        var www_zzjs_net_2 = document.getElementById("www_zzjs_net_2");
+        var speed=70;                                                               //滚动速度值，值越大速度越慢
+        var nnn=200/www_zzjs_net_1.offsetHeight;
+        for(i=0;i<nnn;i++){www_zzjs_net_1.innerHTML+= www_zzjs_net_1.innerHTML}
+        www_zzjs_net_2.innerHTML = www_zzjs_net_1.innerHTML                         //克隆www_zzjs_net_2为www_zzjs_net_1
+        function Marquee(){
+            if(www_zzjs_net_2.offsetTop-wwwzzjsnet.scrollTop<=0)                    //滚动至www_zzjs_net_1与www_zzjs_net_2交界时
+                wwwzzjsnet.scrollTop-=www_zzjs_net_1.offsetHeight                   //wwwzzjsnet跳到最顶端
+            else{
+                wwwzzjsnet.scrollTop++                                              //如果是横向的 将 所有的 height top 改成 width left
+            }
+        }
+        var MyMar = setInterval(Marquee,speed);                                     //设置定时器
+        wwwzzjsnet.onmouseover = function(){clearInterval(MyMar)}                   //鼠标经过时清除定时器达到滚动停止的目的
+        wwwzzjsnet.onmouseout = function(){MyMar = setInterval(Marquee,speed)}      //鼠标移开时重设定时器
+    });
+</script>
+<title>连续向上滚动</title>
+<body>
+    <div class="index_main_cz">
+        <div class="cz_box">
+            <h3>操盘达人</h3>
+            <div class="cz_con">
+                <ul>
+                    <li class="cz_one">
+                        <span class="cz_last1">用户</span>
+                        <span class="cz_last2">操盘总额</span>
+                        <span class="cz_last2">投入资金</span>
+                        <span class="cz_last4" style="padding-right: 0; margin-left: 17px;">杠杆（倍数）</span>
+                        <span class="cz_last2">配资期限</span>
+                        <span class="cz_last3">累计盈利</span>
+                        <span class="cz_last3">收益率</span>
+                    </li>
+                </ul>
+                <div class="scroll"  id="wwwzzjsnet" style="height:230px; overflow:hidden;">
+                    <div id="www_zzjs_net_1">
+                    <ul>
+                        <li class="cz_one1">
+                            <span class="cz_last1">135****482</span>
+                            <span class="cz_last2">120万元</span>
+                            <span class="cz_last2">40万元</span>
+                            <span class="cz_last4">3倍</span>
+                            <span class="cz_last2">6个月</span>
+                            <span class="cz_last3">58.39万元</span>
+                            <span class="cz_last3">145.98%</span>
+                        </li>
+                        <li class="cz_one2">
+                            <span class="cz_last1">135****261</span>
+                            <span class="cz_last2">120万元</span>
+                            <span class="cz_last2">60万元</span>
+                            <span class="cz_last4">2倍</span>
+                            <span class="cz_last2">4个月</span>
+                            <span class="cz_last3">57.39万元</span>
+                            <span class="cz_last3">95.66%</span>
+                        </li>
+                        <li class="cz_one3">
+                            <span class="cz_last1">136****721</span>
+                            <span class="cz_last2">240万元</span>
+                            <span class="cz_last2">60万元</span>
+                            <span class="cz_last4">4倍</span>
+                            <span class="cz_last2">6个月</span>
+                            <span class="cz_last3">38.47万元</span>
+                            <span class="cz_last3">64.13%</span>
+                        </li>
+                        <li class="cz_one4">
+                            <span class="cz_last1">133****882</span>
+                            <span class="cz_last2">180万元</span>
+                            <span class="cz_last2">60万元</span>
+                            <span class="cz_last4">3倍</span>
+                            <span class="cz_last2">3个月</span>
+                            <span class="cz_last3">33.09万元</span>
+                            <span class="cz_last3">55.16%</span>
+                        </li>
+                        <li class="cz_one5">
+                            <span class="cz_last1">136****725</span>
+                            <span class="cz_last2">60万元</span>
+                            <span class="cz_last2">15万元</span>
+                            <span class="cz_last4">4倍</span>
+                            <span class="cz_last2">5个月</span>
+                            <span class="cz_last3">19.68万元</span>
+                            <span class="cz_last3">131.23%</span>
+                        </li>
+                        <li class="cz_one6">
+                            <span class="cz_last1">138****451</span>
+                            <span class="cz_last2">45万元</span>
+                            <span class="cz_last2">15万元</span>
+                            <span class="cz_last4">3倍</span>
+                            <span class="cz_last2">10天</span>
+                            <span class="cz_last3">12.1万元</span>
+                            <span class="cz_last3">80.81%</span>
+                        </li>
+                        <li class="cz_one7">
+                            <span class="cz_last1">189****023</span>
+                            <span class="cz_last2">30万元</span>
+                            <span class="cz_last2">10万元</span>
+                            <span class="cz_last4">3倍</span>
+                            <span class="cz_last2">2个月</span>
+                            <span class="cz_last3">9.21万元</span>
+                            <span class="cz_last3">92.1%</span>
+                        </li>
+                        <li class="cz_one8">
+                            <span class="cz_last1">138****105</span>
+                            <span class="cz_last2">20万元</span>
+                            <span class="cz_last2">5万元</span>
+                            <span class="cz_last4">4倍</span>
+                            <span class="cz_last2">3个月</span>
+                            <span class="cz_last3">7.29万元</span>
+                            <span class="cz_last3">145.8%</span>
+                        </li>
+                        <li class="cz_one9">
+                            <span class="cz_last1">138****105</span>
+                            <span class="cz_last2">15万元</span>
+                            <span class="cz_last2">5万元</span>
+                            <span class="cz_last4">3倍</span>
+                            <span class="cz_last2">2个月</span>
+                            <span class="cz_last3">6.29万元</span>
+                            <span class="cz_last3">125.8%</span>
+                        </li>
+                        <li class="cz_one10">
+                            <span class="cz_last1">182****885</span>
+                            <span class="cz_last2">20万元</span>
+                            <span class="cz_last2">5万元</span>
+                            <span class="cz_last4">4倍</span>
+                            <span class="cz_last2">15天</span>
+                            <span class="cz_last3">4.38万元</span>
+                            <span class="cz_last3">87.6%</span>
+                        </li>
+                    </ul>
+                    </div>
+                    <div id="www_zzjs_net_2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+/* 页面元素初始化和常用样式定义-start */
+/*======== 全局 ========*/
+#popUp,#popUp *{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-touch-callout:none;-webkit-user-select:none;-webkit-appearance:none;outline:none;word-break:break-all;box-sizing:border-box;-webkit-box-sizing:border-box; font-size: 14px;}
+#fade { position: fixed; width: 100%; height: 100%; background: #000; top: 0; left: 0; z-index: 9999;}
+#popUp { position: fixed; top: 50%; left: 50%; z-index: 10000;}
+#popUp .popBorder { background: #000; opacity: 0.3; position: absolute; width: 100%; height: 100%; left: 0; top: 0;
+filter: alpha(opacity=30);}
+#popUp .popCont { position: relative; margin: 8px; background: #fff; }
+#popUp h2 { font-size: 18px; font-weight: bold; background: #f2f2f2; line-height: 50px; padding-left: 30px;}
+#popUp .popClose { width: 22px; height: 22px; cursor: pointer; position: absolute; background: url(../image/popUp/popClose.png) no-repeat; right: 16px; top: 14px;}
+#popUp .alertBg { width: 70px; height: 70px; background: url(../image/popUp/popAlert.png); margin: 28px auto 15px;}
+#popUp .rightBg { width: 70px; height: 70px; background: url(../image/popUp/popRight.png); margin: 28px auto 15px;}
+
+#popUp .buttonPop { text-align: center; font-size: 0; padding-bottom: 25px; padding-top: 20px;}
+#popUp a { display: inline-block; font-size: 18px; font-weight: bold; background: #ff6f05; cursor: pointer; color: #fff; text-align: center; width: 174px; height: 38px; line-height: 38px; border: 1px solid #ff6f05; border-radius: 4px; margin: 0 10px;}

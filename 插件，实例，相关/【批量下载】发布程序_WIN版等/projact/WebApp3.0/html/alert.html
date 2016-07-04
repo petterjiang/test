@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>设备类型</title>
+    <link type="text/css" href="../css/common/public.css" rel="stylesheet" />
+    <link type="text/css" href="../css/alert/alert.css" rel="stylesheet" />
+    <script type="text/javascript" src="../js/common/jquery-1.8.2.min.js"></script>
+    <script>
+     document.write("<s"+"cript type='text/javascript' src='../js/common/conf.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/main.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/url.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/raphael.2.1.0.min.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/justgage.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/type_show.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/WdatePicker.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/json.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/alert/alert.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/web_all/web_all.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/SetHook.js?"+Math.random()+"'></scr"+"ipt>")
+    </script>
+</head>
+<body>
+    <div class="all_wapper">
+        <!-- 导航 -->
+        <div class="nav_top">
+            <div class="top_width">
+                <h1>福控科技</h1>
+                <ul>
+                    <li>
+                        <a class="nav_on" href="web_one.html">系统设备</a>
+                    </li>
+                    <li>
+                        <a href="InstallDevice_new.html">设备安装</a>
+                    </li>
+                    <!-- <li>
+                    <a href="shipin.html">视频监控</a>
+                </li>
+                -->
+                <li>
+                    <a href="user.html">用户信息</a>
+                </li>
+                <li>
+                    <a href="room.html">机房信息</a>
+                </li>
+                <li>
+                    <a href="pue.html">PUE</a>
+                </li>
+                <li>
+                    <a href="power.html">能耗</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 头部信息 -->
+    <div class="top_msg">
+        <div class="top_con">
+            <div class="alert_msg">
+                实时告警信息：
+                <a href='javascript:void(0)'>0</a>
+            </div>
+            <ul>
+                <li>
+                    <a href="type_list.html">查看信息</a>
+                </li>
+                <!-- <li>
+                <a href="history.html">历史数据</a>
+            </li>
+            -->
+            <li>
+                <a class="on_show" href="javascript:void(0)">告警管理</a>
+            </li>
+            <li>
+                <a href="phone.html">手机管理</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 报警 -->
+<div class="alert_box c">
+
+    <div class="table_all">
+        <h2>当前告警信息</h2>
+        <div class="congt_list">
+            <div class="table_style">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <thead>
+                        <tr>
+                            <th height="26">设备名称</th>
+                            <th>属性名称</th>
+                            <th>确认方式</th>
+                            <th>确认人</th>
+                            <th>告警时间</th>
+                            <th>已发送次数</th>
+                            <th>总发送次数</th>
+                            <th>告警内容</th>
+                            <th>告警确认</th>
+                        </tr>
+                    </thead>
+                    <tbody id="Alert"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="table_all">
+        <h2>告警历史信息</h2>
+        <div class="SelDev c">
+            <span>设备选择：</span>
+            <div class="sele a_massge">
+                <p class="msgtype_selct" select_val="" pro_value="all">所有设备</p>
+                <ul class="tiaojian_list relative" style="display: none;">
+                    <li pro_value="all">所有设备</li>
+                </ul>
+            </div>
+            <span>起始时间：</span>
+            <div class="Input">
+                <input type="text" id="time1"></div>
+
+            <span>到</span>
+            <div class="Input">
+                <input type="text" id="time2"></div>
+            <span>
+                <a href="javascript:void(0)" id="Sear">查询</a>
+            </span>
+        </div>
+        <div class="congt_list">
+            <div class="table_style">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <thead>
+                        <tr>
+                            <th height="26">设备名称</th>
+                            <th>属性名称</th>
+                            <th>告警内容</th>
+                            <th>告警时间</th>
+                            <th>确认方式</th>
+                            <th>确认人</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="Alert1"></tbody>
+                </table>
+                <div class="page">
+                    <span class="page_prev">上一页</span>
+                    <span class="page_next">下一页</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div id="add-over-layer" style="display: none;"></div>
+<div id="user-add-container" class="user-add-container">
+<div class="c_title">
+    <span id="u_title">添加手机号码</span>
+    <a href="javascript:" onclick="conClose('user-add-container')"></a>
+</div>
+<div class="u_body">
+    <div>
+        手机号码：
+        <input type="text" placeholder="" id="new_phone1"></div>
+    <div></div>
+    <div class="u_action">
+        <span id="u_cancel" onclick="conClose('user-add-container')">取消</span>
+        <span id="u_ok"
+                        class="add_phone_botton">确定</span>
+    </div>
+</div>
+</div>
+</body>
+</html>

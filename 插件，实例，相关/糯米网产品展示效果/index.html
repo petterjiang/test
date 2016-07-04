@@ -1,0 +1,136 @@
+<!DOCTYpE html pUBliC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="JS代码,焦点图,JS广告代码,JS特效代码" />
+<meta name="description" content="此代码内容为糯米网产品展示效果，属于站长常用代码，更多焦点图代码请访问懒人图库JS代码频道。" />
+<liNK media=all href="css/css.css" type=text/css rel=stylesheet>
+<script src="js/xixi.js" type=text/javascript></script>
+<title>糯米网产品展示效果_懒人图库</title>
+</head>
+
+<body style="text-align:center">
+
+	<div id="container">
+		<div class="left">
+			<div class="s-t">
+				<H3 class="diet">网聚中国互联网企业</H3><span class="date" id="dailyDate"><em 
+				class="ym">2010-07</em><em class=day>09</em></span>
+			</div>
+			<div class="s-c">
+				<H4 id="dailyTitle">标题1</H4>
+				<div class=s-"main">
+					<div class="pics">
+						<p class="p1"><a href="http://www.lanrentuku.com"><img alt="www.lanrentuku.com" id=dailyImage src="images/01-big.jpg"></a></p>
+						<p class="tip" id="dailyImageFrom">www.lanrentuku.com</p>
+					</div>
+					<div class="s-detail">
+						<div class="cnt" id="dailyContent"> 
+							文字说明1
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<div class="slide-pic" id="slidepic">
+				<a class="gray" id="prev" hideFocus href="javascript:;">前移</a> 
+				<div class=pic-container>
+					<ul>
+					  <li class=cur>
+					  <p><img src="images/01.jpg"><span class=date>2012-12-21</span></p>
+					  <li class="">
+					  <p><img src="images/02.jpg"><span class=date>2012-12-21</span></p>
+					  <li class="">
+					  <p><img src="images/03.jpg"><span class=date>2012-12-21</span></p>
+					  <li class="">
+					  <p><img src="images/04.jpg"><span class=date>2012-12-21</span></p>
+					  <li class="">
+					  <p><img src="images/05.jpg"><span class=date>2012-12-21</span></p>
+					</ul>
+				</div>
+				 <a id="next" hideFocus href="javascript:;">后移</a>
+			</div>
+		  
+			<script type=text/javascript>
+			var areaDailylist = [{"content":"文字说明1<br>","id":29,"title":"标题1","image":"images\/01-big.jpg","date":"2010-07-09","imageFrom":"www.lanrentuku.com"},{"content":"文字说明2","id":28,"title":"标题2","image":"images\/02-big.jpg","date":"2010-07-08","imageFrom":"www.lanrentuku.com"},{"content":"文字说明3","id":27,"title":"标题3","image":"images\/03-big.jpg","date":"2010-07-07","imageFrom":"www.lanrentuku.com"},{"content":"文字说明4","id":20,"title":"标题4","image":"images\/04-big.jpg","date":"2010-07-06","imageFrom":"www.lanrentuku.com"},{"content":"文字说明5","id":24,"title":"标题5","image":"images\/05-big.jpg","date":"2010-07-05","imageFrom":"www.lanrentuku.com"}];
+			jQuery(function(){
+			if (!$('#slidepic')[0]) 
+			return;
+			var i = 0, p = $('#slidepic ul'), plist = $('#slidepic ul li'), len = plist.length;
+			var eleprev = $('#prev'), eleNext = $('#next');
+			//var firstClick = false;
+			var w = 100, num = 3;
+			p.css('width',w*len);
+			if (len <= num) 
+			eleNext.addClass('gray');
+			function prev(){
+			if (eleprev.hasClass('gray')) {
+			//alert('已经是第一张了');
+			return;
+			}
+			p.animate({
+			marginTop:-(--i) * w
+			},500);
+			if (i < len - num) {
+			eleNext.removeClass('gray');
+			}
+			if (i == 0) {
+			eleprev.addClass('gray');
+			}
+			}
+			function next(){
+			if (eleNext.hasClass('gray')) {
+			//alert('已经是最后一张了');
+			return;
+			}
+			//p.css('margin-left',-(++i) * w);
+			p.animate({
+			marginTop:-(++i) * w
+			},500);
+			if (i != 0) {
+			eleprev.removeClass('gray');
+			}
+			if (i == len - num) {
+			eleNext.addClass('gray');
+			}
+			}
+			eleprev.bind('click',prev);
+			eleNext.bind('click',next);
+			plist.each(function(n,v){
+			$(this).click(function(){
+			if(n-i == 2){
+			next();
+			}
+			if(n-i == 0){
+			prev()
+			}
+			$('#slidepic ul li.cur').removeClass('cur');
+			$(this).addClass('cur');
+			show(n);
+			}).mouseover(function(){
+			$(this).addClass('hover');
+			}).mouseout(function(){
+			$(this).removeClass('hover');
+			})
+			});
+			function show(i){
+			var ad = areaDailylist[i];
+			var t = ad.date.split('-');
+			$('#dailyTitle').html(ad.title);
+			$('#dailyImage').attr('src',ad.image);
+			$('#dailyImageFrom').html('' + ad.imageFrom + '');
+			$('#dailyContent').html(ad.content);
+			$('#dailyDate').html('<em class="ym">' + t[0] + '.' + t[1] + '</em><em class="day">' + t[2] + '</em>');
+			var shareRRUrl = encodeURIComponent('http://www.nuomi.com/share365/'+ad.id);
+			var shareUrl = encodeURIComponent('http://www.nuomi.com/#reading');
+			var shareTitle = encodeURIComponent(ad.title + 'http://www.lanrentuku.com');
+			var shareContent = encodeURIComponent(ad.content.substring(0,100)+'...');
+			
+			}
+			});
+			</script>
+		</div>
+	</div>
+</body>
+</html>

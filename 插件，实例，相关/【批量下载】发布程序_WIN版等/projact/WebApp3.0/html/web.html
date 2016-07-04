@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>多机房首页</title>
+    <link type="text/css" href="../css/common/public.css" rel="stylesheet" />
+    <link type="text/css" href="../css/web/web.css" rel="stylesheet" />
+    <script type="text/javascript" src="../js/common/jquery-1.8.2.min.js"></script>
+    <script>
+     document.write("<s"+"cript type='text/javascript' src='../js/common/conf.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/main.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/url.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/jquery.form.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/web_all/web_all.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/web/web_m.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/SetHook.js?"+Math.random()+"'></scr"+"ipt>")
+    </script>
+</head>
+<body>
+    <div class="all_wapper">
+        <!-- 导航 -->
+        <div class="nav_top">
+            <div class="top_width">
+                <h1>
+                    福控科技</h1>
+                <ul>
+                    <li><a class="nav_on" href="web_one.html">系统设备</a> </li>
+                    <li><a href="InstallDevice_new.html">设备安装</a> </li>
+                    <li><a href="user.html">用户信息</a> </li>
+                    <li><a href="room.html">机房信息</a> </li>
+                    <li><a href="pue.html">PUE</a> </li>
+                    <li><a href="power.html">能耗</a> </li>
+                </ul>
+            </div>
+        </div>
+        <!-- loading展示 -->
+        <div class="loading_show">
+            <img src="../images/pub/loading.png" width="100%" height="100%" />
+            <div class="time_now">
+            </div>
+        </div>
+        <!-- 地图展示 -->
+        <div class="map_box">
+            <div class="map_show">
+                <img id="img_id" src="../images/upload_bg/map_all.png" style="display: block;" />
+            </div>
+        </div>
+        <!-- 操作模块 -->
+        <div class="add_iteam">
+            <div class="suoyou">
+                <h2>
+                    当前区域为：</h2>
+                <p class="show_dq">
+                    所有区域</p>
+            </div>
+            <div class="contrl">
+                <h2>
+                    可进行操作：</h2>
+                <ul>
+                    <li><a class="add_area" href="javascript:void(0)">增加子区域</a> </li>
+                    <li style="margin-bottom: 20px;"><a class="add_img" href="javascript:void(0)">增加该区域地图</a> </li>
+                    <li><a class="deleta_area" href="javascript:void(0)" style="font-size: 16px;">删除子区域</a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 弹出 -->
+    <div id="add-over-layer" style="display: none;">
+    </div>
+    <div id="user-add-container" class="user-add-container">
+        <div class="c_title">
+            <span id="u_title">添加机房</span> <a href="javascript:" onclick="conClose('user-add-container')">
+            </a>
+        </div>
+        <div class="u_body">
+            <span>机房名称：
+                <input type="text" placeholder="" id="new_title"></span> <span>机房&nbsp;&nbsp; IP：
+                    <input type="text" placeholder="" id="new_url"></span> <span>机房端口：
+                        <input type="text" placeholder="" id="new_duankou" value="8002"></span>
+            <span>机房类型：
+                <select id="new_type" name="">
+                    <option value="0">3200</option>
+                    <option value="1" selected="selected">3008</option>
+                    <option value="2">3200S</option>
+                </select>
+            </span>
+        </div>
+        <div class="u_action">
+            <span id="u_cancel" onclick="conClose('user-add-container')">取消</span> <span id="u_ok"
+                class="add_room_botton">确定</span>
+        </div>
+    </div>
+    <div id="user-add-img" class="user-add-container">
+        <div class="c_title">
+            <span id="u_title">添加图片</span> <a href="javascript:" onclick="conClose('user-add-img')">
+            </a>
+        </div>
+        <div class="u_body">
+            <form id="UpLoadForm" name="UpLoadForm" method="post" enctype="multipart/form-data"
+            action="">
+            <span>区域图片：
+                <input class="width120" type="file" id="flUpload" name="flUpload" style="border: 1px solid #ccc;" />
+                <input id="btnUpload" type="button" value="上传" />
+            </span>
+            </form>
+        </div>
+        <div class="u_action">
+            <span id="u_cancel" onclick="conClose('user-add-img')">取消</span>
+        </div>
+    </div>
+    <div id="user-del-area" class="user-add-container">
+        <div class="c_title">
+            <span id="u_title">删除机房</span> <a href="javascript:" onclick="conClose('user-del-area')">
+            </a>
+        </div>
+        <div class="u_body">
+            <span>机房名称：
+                <select id="room_name" name="">
+                </select>
+            </span>
+        </div>
+        <div class="u_action">
+            <span id="u_cancel" onclick="conClose('user-del-area')">取消</span> <span id="u_ok">确定</span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <link rel="shortcut icon" href="images/favicon.ico" content="text/html; charset=gb2312">
+    </link>
+    <link type="text/css" href="css/common/public.css" rel="stylesheet" />
+    <link href="css/index/index.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/common/jquery-1.8.2.min.js"></script>
+    <script>
+     document.write("<s"+"cript type='text/javascript' src='js/common/conf.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='js/common/url.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='js/web_all/web_all.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='js/common/jquery.params.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='js/common/jquery.md5.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='js/index/login.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='js/index/version.js?"+Math.random()+"'></scr"+"ipt>")
+     
+    </script>
+    
+    <title>登录界面</title>
+</head>
+<body>
+<!--[if lte IE 8]>
+<div class="bg_fiexd"></div>
+ <div id="ie6-warning">
+<strong>温馨提示</strong><br />
+ <span class="text_ts">您正在使用低版本浏览器，为了您的体验。请您升级到以下浏览器：</span> <p> <a href="http://w.x.baidu.com/alading/anquan_soft_down_b/14744">Chrome</a> / <a href="http://download.firefox.com.cn/releases/stub/official/zh-CN/Firefox-latest.exe">Firefox</a> / <a href="http://windows.microsoft.com/zh-cn/internet-explorer/ie-10-worldwide-languages">IE 10</a> </p>
+ </div>
+ <script type="text/javascript">
+ function position_fixed(el, eltop, elleft){
+ // check if this is IE6
+ if(!window.XMLHttpRequest)
+ window.onscroll = function(){
+ el.style.top = (document.documentElement.scrollTop + eltop)+"px";
+ el.style.left = (document.documentElement.scrollLeft + elleft)+"px";
+ }
+ else el.style.position = "absolute";
+ }
+ position_fixed(document.getElementById("ie6-warning"),0, 0);
+ </script>
+ <![endif]-->
+    <div class="login">
+        <h1><span class="name_qiye"></span><span class="name_xitong"></span></h1>
+        <div class="login_go">
+            <table class="input_table" width="265" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="58" height="35" align="left" valign="middle">
+                        &nbsp;用户名：
+                    </td>
+                    <td width="207" align="left" valign="middle">
+                        <input type="text" class="name" value="admin"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="35" align="left" valign="middle">
+                        &nbsp;密&nbsp;&nbsp;码：
+                    </td>
+                    <td align="left" valign="middle">
+                        <input type="password" class="password" value="admin"/>
+                    </td>
+                </tr>
+            </table>
+            <div class="subit_box">
+                <span class="subit_login" id="login">登 录</span> <span class="subit_chongzhi">重 置</span>
+            </div>
+            <div class="banben">
+                </div>
+        </div>
+    </div>
+</body>
+</html>

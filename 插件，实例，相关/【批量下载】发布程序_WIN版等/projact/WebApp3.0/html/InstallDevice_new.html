@@ -1,0 +1,370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+  <title>设备安装</title>
+  <link type="text/css" href="../css/common/style.css" rel="stylesheet" />
+  <link type="text/css" href="../css/common/public.css" rel="stylesheet" />
+  <link type="text/css" href="../css/InstallDevice/install.css" rel="stylesheet" />
+  <script type="text/javascript" src="../js/common/jquery-1.8.2.min.js"></script>
+  <script>
+     document.write("<s"+"cript type='text/javascript' src='../js/common/conf.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/daohang.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/area.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/jquery.form.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/main.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/InstallDevice/load.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/url.js?"+Math.random()+"'></scr"+"ipt>")
+     document.write("<s"+"cript type='text/javascript' src='../js/common/SetHook.js?"+Math.random()+"'></scr"+"ipt>")
+  </script>
+</head>
+<body id="uidemo">
+  <!-- 导航 -->
+  <div class="nav_top">
+    <div class="top_width">
+      <h1>福控科技</h1>
+      <ul>
+        <li>
+          <a href="web_one.html">系统设备</a>
+        </li>
+        <li>
+          <a class="nav_on" href="javascript:void(0)">设备安装</a>
+        </li>
+        <li>
+          <a href="user.html">机房信息</a>
+        </li>
+        <li>
+          <a href="pue.html">PUE</a>
+        </li>
+        <li>
+          <a href="power.html">能耗</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- 头部信息 -->
+  <div class="top_msg">
+    <div class="top_con">
+      <div class="alert_msg">
+        实时告警信息：
+        <a href='alert.html'>0</a>
+      </div>
+      <ul class="InfoTab">
+        <li>
+          <a class="on_show" href="javascript:void(0)">设备安装</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="anzhuang_box">
+    <div class="sb_list c">
+      <h2>读取设备列表:(拖动完成设备端口安装)</h2>
+      <ul class="drag box2"></ul>
+    </div>
+    <div id="container">
+      <div class="conctrl all_go">
+        <a href="javascript:void(0);" class="add_jx">增加机箱</a>
+        <a href="javascript:void(0);" class="del_jx">删除机箱</a>
+      </div>
+    </div>
+    <div class="pezhi_box" style="display:none;">
+      <div class="close" title="关闭"></div>
+      <div class="ovflo">
+        <h2>端口名称</h2>
+        <a href='javascript:void(0)' id='update1' style="text-decoration:none;position:absolute;left:128px;top:4px; color:#fff; text-decoration: underline;">升级模块</a>
+        <div class="file_sed" style="display:none;background:#000;">
+          <form id="UpLoadForm11" name="UpLoadForm11" method="post" enctype="multipart/form-data" action="">
+            <table border="0" cellpadding="0" cellspacing="0" class="upp">
+              <tr>
+                <td>
+                  <input class="width120" type="file" id="flUpload11" name="flUpload11" />
+                  <input id="btnUpload11" class="botton_style" type="button" value="上传" />
+                  <a href="javascript:void(0);" class="img_qx">关闭</a>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <div class="peizhi_con table_style">
+          <table width="90%" border="0" cellpadding="0" cellspacing="0" class="leixing" style="margin:0 auto;">
+            <tr>
+              <th height="30">原始设备名称</th>
+              <th>查看应用</th>
+              <th>配置</th>
+            </tr>
+          </table>
+        </div>
+        <div class="conctrl hide">
+          <a href="javascript:void(0)" class="wcpz">完成配置</a>
+          <a href="javascript:void(0)" class="quxiao_pz">取消</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pezhi_box_232" style="display:none;" id="intf232">
+    <div class="close" title="关闭"></div>
+    <div class="ovflo">
+      <h2>RS232/RS485模块</h2>
+      <a href='javascript:void(0)' id='update2' style="text-decoration:none;position:absolute;left:150px;top:4px; color:#fff; text-decoration: underline;">升级模块</a>
+      <div class="file_sed1" style="display:none;background:#000;">
+        <form id="UpLoadForm22" name="UpLoadForm22" method="post" enctype="multipart/form-data" action="">
+          <table border="0" cellpadding="0" cellspacing="0" class="upp">
+            <tr>
+              <td>
+                <input class="width120" type="file" id="flUpload22" name="flUpload22" />
+                <input id="btnUpload22" class="botton_style" type="button" value="上传" />
+                <a href="javascript:void(0);" class="img_qx">关闭</a>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <div class="peizhi_con table_style">
+        <ul class="duankou_change c">
+          <li class="currt">端口一</li>
+          <li>端口二</li>
+          <li>端口三</li>
+          <li>端口四</li>
+        </ul>
+        <div class="dunkou_lb">
+          <div class="duankou0 model_d" style=" display:block;">
+            <h3>
+              <div class="set_bot">
+                波特率：
+                <input class="botlive" type="text" value="" disabled="disabled" />
+                <span class="changebit" change_text="0">修改</span>
+              </div>
+              <div class="tiaoshi"><span class="tiaoshi_open">调试开</span> <span class="tiaoshi_close">调试关</span></div>
+              <a href="javascript:void(0)" class="add_dev_sb">添加设备</a>
+            </h3>
+            <div class="w_90">
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="232sb">
+                <tr>
+                  <th height="30">原始设备名</th>
+                  <th>设备地址</th>
+                  <th>查看应用</th>
+                  <th>配置</th>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="duankou1 model_d">
+            <h3>
+              <div class="set_bot">
+                波特率：
+                <input class="botlive" type="text" value="" disabled="disabled" />
+                <span class="changebit" change_text="0">修改</span>
+              </div>
+              <div class="tiaoshi"><span class="tiaoshi_open">调试开</span> <span class="tiaoshi_close">调试关</span></div>
+              <a href="javascript:void(0)" class="add_dev_sb">添加设备</a>
+            </h3>
+            <div class="w_90">
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="232sb">
+                <tr>
+                  <th height="30">原始设备名</th>
+                  <th>设备地址</th>
+                  <th>查看应用</th>
+                  <th>配置</th>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="duankou2 model_d">
+            <h3>
+              <div class="set_bot">
+                波特率：
+                <input class="botlive" type="text" value="" disabled="disabled" />
+                <span class="changebit" change_text="0">修改</span>
+              </div>
+              <div class="tiaoshi"><span class="tiaoshi_open">调试开</span> <span class="tiaoshi_close">调试关</span></div>
+              <a href="javascript:void(0)" class="add_dev_sb">添加设备</a>
+            </h3>
+            <div class="w_90">
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="232sb">
+                <tr>
+                  <th height="30">原始设备名</th>
+                  <th>设备地址</th>
+                  <th>查看应用</th>
+                  <th>配置</th>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="duankou3 model_d">
+            <h3>
+              <div class="set_bot">
+                波特率：
+                <input class="botlive" type="text" value="" disabled="disabled" />
+                <span class="changebit" change_text="0">修改</span>
+              </div>
+              <div class="tiaoshi"><span class="tiaoshi_open">调试开</span> <span class="tiaoshi_close">调试关</span></div>
+              <a href="javascript:void(0)" class="add_dev_sb">添加设备</a>
+            </h3>
+            <div class="w_90">
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="232sb">
+                <tr>
+                  <th height="30">原始设备名</th>
+                  <th>设备地址</th>
+                  <th>查看应用</th>
+                  <th>配置</th>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pezhi_box_ip" style="display:none;" id="intfip">
+    <div class="close" title="关闭"></div>
+    <div class="ovflo">
+      <h2>IP模块</h2>
+      <a href='javascript:void(0)' id='update2' style="text-decoration:none;position:absolute;left:150px;top:4px; color:#fff; text-decoration: underline;">升级模块</a>
+      <div class="file_sed1" style="display:none;background:#000;">
+        <form id="UpLoadForm33" name="UpLoadForm33" method="post" enctype="multipart/form-data" action="">
+          <table border="0" cellpadding="0" cellspacing="0" class="upp">
+            <tr>
+              <td>
+                <input class="width120" type="file" id="flUpload33" name="flUpload33" />
+                <input id="btnUpload33" class="botton_style" type="button" value="上传" />
+                <a href="javascript:void(0);" class="img_qx">关闭</a>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <div class="peizhi_con table_style">
+        <div class="dunkou_lb2">
+          <div class="duankou0 model_d" style=" display:block;">
+            <h3>
+              <a href="javascript:void(0)" class="add_dev_sb1">添加设备</a>
+            </h3>
+            <div class="w_90">
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" class="232sb">
+                <tr>
+                  <th height="30">原始设备名</th>
+                  <th>设备地址</th>
+                  <th>查看应用</th>
+                  <th>配置</th>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="peizhi_dev1 peizhi_dev_add">
+    <div class="close1" title="关闭"></div>
+    <div class="info_dev">
+      <p class="dk_title"></p>
+      <div class="change_name2">
+        <p class="menu_title">设备名称</p>
+        <input type="text" value="请输入设备名称"></div>
+
+      <div class='change_addr'>
+        <p class="menu_title">设备地址</p>
+        <input type='text' value='请输入设备地址' />
+        <span style="float:left; margin-top:8px;">请输入1-255地址范围</span>
+      </div>
+      <div class="lexing_dev1">
+        <p class="menu_title">原始设备类型</p>
+        <div class="sele">
+          <p>请选择</p>
+          <ul class="leibie1"></ul>
+        </div>
+      </div>
+      <ul></ul>
+      <div class="xinghao_dev">
+        <p class="menu_title">设备厂家型号</p>
+        <div class="sele">
+          <p>请选择</p>
+          <ul class="cjxinghao"></ul>
+        </div>
+      </div>
+      <div class="conctrl" style=" clear:both; text-align:center; padding-top:30px;">
+        <a href="javascript:void(0)" class="wcpz1">完成</a>
+        <a href="javascript:void(0)" class="quxiao_pz1">取消</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="peizhi_dev2 peizhi_dev_add1">
+    <div class="close1" title="关闭"></div>
+    <div class="info_dev">
+      <div class="change_name3">
+        <p class="menu_title">设备名称</p>
+        <input type="text" value="请输入设备名称"></div>
+
+      <div class='change_addr2'>
+        <p class="menu_title">设备地址</p>
+        <input type='text' value='请输入设备地址' />
+        <span style="float:left; margin-top:8px;">请输入ip地址格式（如：192.168.0.1）</span>
+      </div>
+      <div class="lexing_dev2">
+        <p class="menu_title">原始设备类型</p>
+        <div class="sele">
+          <p>请选择</p>
+          <ul class="leibie2"></ul>
+        </div>
+      </div>
+      <div class="conctrl" style=" clear:both; text-align:center; padding-top:30px;">
+        <a href="javascript:void(0)" class="wcpz1">完成</a>
+        <a href="javascript:void(0)" class="quxiao_pz1">取消</a>
+      </div>
+    </div>
+  </div>
+  <div class="peizhi_dev">
+    <div class="close1" title="关闭"></div>
+    <div class="info_dev">
+      <div class='change_name1'>
+        <p class="menu_title">设备名称</p>
+        <input type='text' value='请输入设备名称' />
+      </div>
+      <div class="lexing_dev">
+        <p class="menu_title">设备类型</p>
+        <div class="sele">
+          <p>请选择</p>
+          <ul class="leibie"></ul>
+        </div>
+      </div>
+
+      <div class="conctrl" style=" clear:both; text-align:center; padding-top:30px;">
+        <a href="javascript:void(0)" class="wcpz1">确认</a>
+        <a href="javascript:void(0)" class="quxiao_pz1">取消</a>
+      </div>
+    </div>
+  </div>
+  <div class="list_yy">
+    <div class="close_list_yy"></div>
+    <div class="table_style" style="overflow:auto; height:100%;">
+      <h3 class="pve_name">
+        原始设备：
+        <span></span>
+      </h3>
+      <table width="90%" border="0" cellpadding="0" cellspacing="0" class="232sb" style="margin:0 auto;">
+        <th height="30">应用名称</th>
+        <th>设备类型</th>
+        <th>配置</th>
+      </table>
+    </div>
+  </div>
+  <div id="add-over-layer"></div>
+  <div class="change_name" id="change_nm" style="display:none;">
+    <p class="" style='float:left; margin-right:5px; padding-left:10px;'>设备名称</p>
+    <input style='float:left; color:#999; border:1px solid #ccc;' type="text" value="请输入设备名称">
+    <div class="ui_button">
+      <a href="javascript:void(0)" class="esc_change">取消</a>
+      <a href="javascript:void(0)" class="enter_change">确定</a>
+    </div>
+  </div>
+  <div class="tiaoshi_window">
+    <div class="close_tiaoshi" title="关闭"></div>
+    <h2>调试信息</h2>
+    <div style="text-align:center;"><span class="sotp_line">停止</span> <span class="continiu_go">继续</span></div>
+    <div class="tiaoshi_con">
+      <div class="cont_add"></div>
+    </div>
+  </div>
+</body>
+</html>

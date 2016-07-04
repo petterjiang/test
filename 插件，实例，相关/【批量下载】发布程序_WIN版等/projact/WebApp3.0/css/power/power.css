@@ -1,0 +1,240 @@
+﻿*{
+margin:0;
+padding:0;
+}
+span{
+    color:#fff;
+}
+input {
+	color:#fff;
+}
+a {
+	text-decoration: none;
+    color:#fff;
+}
+a:hover {
+	text-decoration: underline;
+}
+.power_show{
+    width:775px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.power_top{
+    height:29px;
+}
+.power{
+    padding-bottom: 25px;
+    border:2px solid #3da5ee;
+    border-radius:7px;
+    background:#333;
+}
+.power_title{
+    background:url("../../images/pub/title_top.jpg") repeat scroll;
+    height:27px;
+    font-size:15px;
+}
+.power_title h2 {
+    color: #fff;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.Sear table {
+	border:1px solid #fff;
+    width:700px;
+}
+.SearTr{
+    height:33px;
+	background:none;
+}
+.SearTr  td {
+	border:2px;
+}
+.Sear {
+	margin-top: 8px;
+    margin-left:35px;
+	
+}
+.SearTr input {
+	border:none;
+    background:#333;
+    width:115px;
+}
+.SearTr div {
+	border:1px solid #fff;
+    height:18px;
+    width:115px;
+    float:right;
+}
+
+.power_info {
+	margin-left:35px;
+    width:700px;
+    border:2px solid #3da5ee;
+    border-radius:5px;
+    text-align:center;
+}
+ #power_info{
+	width:100%;
+    border-collapse:collapse;
+}
+.power_info thead {
+	background: #7cb6eb;
+}
+.power_info td {
+	color:#fff;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+}
+.Bottom {
+	margin-top:30px;
+}
+.Middle{
+    margin-top:30px;
+}
+.AddBut {
+    height:25px;
+    width:54px;
+    border-radius:7px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+
+	
+}
+.AddBut span {
+
+font-weight: bold;
+color: #333;
+background: #999;
+display: block;
+width: 80px;
+text-align: center;
+border-radius: 8px 8px 0 0;
+bottom: 0px;
+height: 26px;
+line-height: 26px;
+left: 50%;
+cursor: pointer;
+padding: 0;
+text-decoration: none;
+font-size: 12px;
+}
+.Button {
+	margin-top: 237px;
+    height:37px;
+    width:100%;
+}
+.Submit {
+	border:1px solid #fff;
+    border-radius:4px;
+    background:url("../../images/pub/title_top.jpg");
+    width:65px;
+    height:26px;
+    cursor:pointer;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+	
+}
+.Close {
+	border:1px solid #fff;
+    border-radius:4px;
+    background:url("../../images/pub/title_top.jpg");
+    height:37px;
+    width:69px;
+    margin-right:122px;
+    margin-left:auto;
+    cursor:pointer;
+    text-align:center;
+}
+.Button span {
+    margin-left:-14px;
+    position:absolute;
+	font-size:14px;
+}
+.DelPower {
+	cursor: pointer;
+}
+.ChartCont {
+}
+#day_average {
+}
+#month_average {
+    border-top:2px solid #3da5ee;
+}
+.AddPage {
+	width:775px;
+    margin-left:auto;
+    margin-right:auto;
+    border:2px solid #3da5ee;
+    border-radius:7px;
+    background:#333;
+}
+.close {
+    position: relative;
+	width:100%;
+    background:url("../../images/pub/title_top.jpg") repeat;
+    height:26px;
+    }
+    .closebut {
+	display: block;
+width: 19px;
+height: 19px;
+cursor: pointer;
+background: url(../../images/pub/portal_all_gif.gif) no-repeat left -460px;
+position: absolute;
+top: 3px;
+right: 8px;
+	
+}
+.closebut span { display: none;}
+.SelDev span{
+    float:left;
+	color:#fff;
+    margin-top:7px;
+    margin-left:3px;
+}
+.SelDev p {
+	cursor: pointer;
+    color:#fff;
+    height:18px;
+}
+.Input
+{
+    width: 100px;
+    border: 1px solid #fff;
+    height: 18px;
+    float: left;
+    margin-left: 7px;
+    margin-top: 7px;
+    position:relative;
+    z-index:5555;
+}
+.menu {
+	border:1px solid #fff;
+    color:#fff;
+}
+.menu li:hover {
+	background: #3da5ee;
+    cursor:pointer;
+}
+.power .Middle {
+	margin-top:9px;
+}
+.help {
+	border:1px solid #fff;
+    border-radius:3px;
+    width:18px;
+    height:18px;
+    text-align:center;
+	float:right;
+    cursor:pointer;
+	display:none;
+}
+.help span {
+	font-size:20px;
+}

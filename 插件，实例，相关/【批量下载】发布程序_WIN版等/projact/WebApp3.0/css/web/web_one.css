@@ -1,0 +1,37 @@
+html{ height: 100%; }
+body { height: 100%;}
+
+
+/*系统分类背景样式*/
+.systeam_box { width: 900px; margin: 0 auto; position: relative;}
+.img_bg { border: 2px solid #3da5ee; border-radius: 18px 18px 0 0; width: 680px; height: 86px; position: absolute; border-bottom: none; top: 158px; left: 110px;}
+.bg_nei { height: 100%; width: 220px; margin: 0 auto; border-left:2px solid #3da5ee;border-right:2px solid #3da5ee; }
+.bg_wai { height: 28px;width: 2px; background: #3da5ee; margin:-30px auto 0;}
+
+/*系统分类展示*/
+.sys_title { width: 268px; height: 77px; padding: 0 9px 9px 0; text-decoration: none; color: #fff; font-size: 24px; font-weight: bold; background: url(../../images/pub/bg_title.png); line-height: 77px; text-align: center; position: absolute; top: 52px; left: 315px;}
+.sys_item h2 img { position: absolute; left: 7px; top: 5px;}
+.sys_item { width: 164px; float: left;margin-right: 62px;}
+.sys_item h2 { width: 74px; height: 29px; padding-bottom: 3px; line-height: 29px; background:url(../../images/pub/h2_bg.png); position: relative; font-size: 13px; font-weight: bold; color: #fff; padding-left: 43px; margin: 0 auto 15px; }
+.sys_item ul { width: 162px; /*height: 260px;*/ border: 2px solid #3da5ee; border-radius: 12px; padding-bottom: 7px;}
+.sys_item ul li { margin-top: 9px; position: relative; }
+.sys_item ul li .alert_msg_index {
+display: none;
+font-weight: bold;
+text-align: center;
+line-height: 16px;
+background: red;
+height: 16px;
+position: absolute;
+width: 16px;
+border: 1px solid #000;
+color: #000;
+position: absolute;
+top: 0;
+right: 5px;
+border-radius: 4px;}
+.sys_item ul a { display: block; position: relative; width: 146px; height: 51px; margin: 0 auto; background:url(../../images/pub/bottom.png); line-height: 51px; padding: 0 3px 3px 0; color: #fff; font-size: 12px; font-weight: bold; text-decoration: none; }
+.sys_item ul a:hover { background-position: 0 -54px;}
+.sys_all_l { position: absolute; left: 30px; top: 197px; width:905px;}
+.sys_item ul a img { position: absolute; top: 4px; left: 7px; height: 40px;}
+.sys_item ul a span { display: block; margin-left: 70px; text-align: center;}
